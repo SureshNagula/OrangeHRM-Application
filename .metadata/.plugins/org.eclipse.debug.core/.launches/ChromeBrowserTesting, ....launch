@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="OrangeHRMApplication"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="com.GetText.Goodle_SignIn_GetText"/>
+        <listEntry value="identifyingTheTitle.Bing_HomePage_Title"/>
+        <listEntry value="com.ExcelOperations.Excel_ReadMultipleDta"/>
+        <listEntry value="com.TSRTCLinksTesting.HeaderBlock_DisplayLinksNames"/>
+        <listEntry value="com.Arrays.ListArray"/>
+        <listEntry value="com.TSRTCLinksTesting.HeaderBlockLinksCount"/>
+        <listEntry value="practice.Practice2"/>
+        <listEntry value="loopsConcept.ForLoop2"/>
+        <listEntry value="capturingURLAddress.Google_CapturingHomePageURLAdress"/>
+        <listEntry value="decisionMaking.NestedIf"/>
+        <listEntry value="com.TSRTCLinksTesting.HeaderBlock_LinksTestink"/>
+        <listEntry value="com.OrangeHRM_ExcelOperations.OrangeHRMLogin_ExcelData"/>
+        <listEntry value="com.Arrays.ObjectArray"/>
+        <listEntry value="com.LinksTesting.Google_SighnIn_Click"/>
+        <listEntry value="com.TSRTCLinksTesting.HesderBlockLinks_ScreenShots"/>
+        <listEntry value="com.Arrays.SingleDimensionArray"/>
+        <listEntry value="com.OHRM.LoginTest"/>
+        <listEntry value="com.Amazon.Amazon_YourWishList_Click"/>
+        <listEntry value="com.OrangeHRMCompleteValidation.Invalid"/>
+        <listEntry value="com.OHRM_TenstNG.Login_Invalid_ScreenShots"/>
+        <listEntry value="browsersAutomation.ChromeBrowserTesting"/>
+        <listEntry value="com.GetAttribute.Google_SignIn_GetHrefAttributeValue"/>
+        <listEntry value="com.OrangeHRM_ExcelOperations.LoginWith_Valid_Invalid"/>
+        <listEntry value="decisionMaking.IfElseIf"/>
+        <listEntry value="loopsConcept.DoWhile"/>
+        <listEntry value="com.WebTable_Names.CpaturingAllCountry_Names"/>
+        <listEntry value="com.OHRM.LougoutTest"/>
+        <listEntry value="com.Alert.AlertWindowClick"/>
+        <listEntry value="com.Arrays.MultiDimensionArray"/>
+        <listEntry value="javaBasedProgram.MyFirstProgram"/>
+        <listEntry value="com.UserDefinedMethods.MthodExample3"/>
+        <listEntry value="practice.PracticePurpose"/>
+        <listEntry value="facebook.com.ChromeBrowser_FaceBook_CloseBrowser"/>
+        <listEntry value="identifyingTheTitle.BingHomePageTitleValidation"/>
+        <listEntry value="com.ExcelOperations.Excel_WriteOperation"/>
+        <listEntry value="decisionMaking.IfElseConcept"/>
+        <listEntry value="com.OrangeHRMCompleteValidation.OrangeHRMComplete"/>
+        <listEntry value="com.UserDefinedMethods.MethodExample9"/>
+        <listEntry value="loopsConcept.NestedLoop"/>
+        <listEntry value="loopsConcept.WhileLoop"/>
+        <listEntry value="com.Drop_Down_OU.Drop_Down_Osmania"/>
+        <listEntry value="com.WebTable_Names.Practice"/>
+        <listEntry value="com.Drop_Down_OU.All_Languages_Capturing_ScreenShots"/>
+        <listEntry value="com.UserDefinedMethods.MethodExample2"/>
+        <listEntry value="com.UserDefinedMethods.MethodExample1"/>
+        <listEntry value="jumpStstements.ContinueKey"/>
+        <listEntry value="com.Testng.Testng"/>
+        <listEntry value="loopsConcept.ForLoop"/>
+        <listEntry value="com.TSRTCLinksTesting.LinksTesting"/>
+        <listEntry value="decisionMaking.Switch"/>
+        <listEntry value="com.OrangeHRM_ExcelOperations.LoginWith_Valid_Invalid_ScreenShot"/>
+        <listEntry value="jumpStstements.BreakKey"/>
+        <listEntry value="decisionMaking.IfConcept"/>
+        <listEntry value="com.ExcelOperations.Excel_ReadSingleTestData"/>
+        <listEntry value="stringComparision.SringComparision"/>
+        <listEntry value="browsersAutomation.AllBrowsersTesting"/>
+        <listEntry value="variablesConcept.VariablesJava"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

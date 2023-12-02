@@ -1,0 +1,174 @@
+package com.StepDefination;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.Utility.Log;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class OrangeHRMApplicationUserDefinedMethods {
+	
+	WebElement welcomeadminlink;
+	public static WebDriver driver;
+	String applicationUrlAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/dashboard";
+
+@Given("^User Should Open Chrome Browser in The System$")
+public void user_Should_Open_Chrome_Browser_in_The_System() 
+{
+	System.setProperty("webdriver.chrome.driver", "./newbrowser/chromedriver.exe");
+	driver = new ChromeDriver();
+	
+	Log.info(" Successfully launched Chrome Browser ");
+
+	
+}
+
+@When("^User Enters OrangeHRM Application URL Address$")
+public void user_Enters_OrangeHRM_Application_URL_Address() 
+{
+    
+    driver.get(applicationUrlAddress);
+    Log.info("Successfull Navigategint to Application");
+    driver.manage().window();
+    driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+}
+
+@Then("^User Should be Navigated To OrangeHRM Application Login WebPage$")
+
+public void user_Should_be_Navigated_To_OrangeHRM_Application_Login_WebPage() 
+{
+	
+	By logInPanelTextProperty=By.id("logInPanelHeading");
+	WebElement logInPanel=driver.findElement(logInPanelTextProperty);
+
+	String expected_OrangeHRMApplicationLogInPageText="LOGIN Panel";
+	Log.info(" The expected Text of the OrangeHRM Application LogIn Page is :- "+expected_OrangeHRMApplicationLogInPageText);
+
+
+	String actual_OrangeHRMApplicationLogInPageText=logInPanel.getText();
+	Log.info(" The actual Text of the OrangeHRM Application LogIn Page is :- "+actual_OrangeHRMApplicationLogInPageText);
+
+	if(actual_OrangeHRMApplicationLogInPageText.equals(expected_OrangeHRMApplicationLogInPageText))
+	{
+	Log.info(" OrangeHRM Application LogIn Page Text Validation Successfull - PASS ");
+	}
+	else
+	{
+	Log.info(" OrangeHRM Application LogIn Page Text Validation UNSuccessfull - FAIL ");
+	}
+
+   
+}
+
+@Then("^User Should Close the OrangeHRM Application along with the Browser$")
+public void user_Should_Close_the_OrangeHRM_Application_along_with_the_Browser() 
+{
+   
+    driver.quit();
+    Log.info("Successfully Closed The Browser");
+}
+
+
+
+
+@Then("^User Should Enter UserName and Password and Click on Login button$")
+public void user_Should_Enter_UserName_and_Password_and_Click_on_Login_button() 
+{
+	
+	// <input name="txtUsername" id="txtUsername" type="text">
+
+			// id - locator
+			// txtUsername - selector
+			//driver.findElement(By.id("txtUsername")).sendKeys("laddu");
+			
+			String userNameTestData="Suresh";
+			By userNameProperty=By.id("txtUsername");
+			WebElement userName=driver.findElement(userNameProperty);
+			userName.sendKeys(userNameTestData);
+			
+			// <input name="txtPassword" autocomplete="off" type="password">
+			
+			String passwordTestData="Suresh#1234";
+			
+			By passwordProperty=By.name("txtPassword");
+			WebElement password=driver.findElement(passwordProperty);
+			password.sendKeys(passwordTestData);
+			
+			
+			
+			// <input type="submit"  class="button"  value="LOGIN">
+			
+			By loginButtonProperty=By.className("button");
+			
+			WebElement loginButton=driver.findElement(loginButtonProperty);
+			loginButton.click();
+
+}
+
+@Then("^User Should be Navigating to orangeHRM Home Page Application$")
+public void user_Should_be_Navigating_to_orangeHRM_Home_Page_Application() 
+{
+	String expectedWelcomeAdminLinkText="Admin";
+	System.out.println("The Expected Name of WelcomeAdmin Text is ="+expectedWelcomeAdminLinkText);
+	
+	//<a href="#" id="welcome" class="panelTrigger activated-welcome">Welcome Admin</a>
+	
+	
+	String actualWelComeAdminText=welcomeadminlink.getText();
+	
+	System.out.println("The Actual Name of WelcomeAdmin Text is ="+actualWelComeAdminText);
+	
+	if(actualWelComeAdminText.contains(expectedWelcomeAdminLinkText))
+	{
+		System.out.println("The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass");
+	}
+	else
+	{
+		System.out.println("The Expected WeccomeAdmin text does NOT Contain in ActualWelcomeAdmin Text = Fail");
+	}
+	
+	
+}
+
+@Then("^User should click on welcome admin and click on logout$")
+public void user_should_click_on_welcome_admin_and_click_on_logout()
+{
+      By welcomeAdminProperty=By.linkText("Welcome Admin");
+	
+	WebElement welcomeadminlink=driver.findElement(welcomeAdminProperty);
+	
+	welcomeadminlink.click();
+	
+	By logoutProperty=By.linkText("Logout");
+	
+	
+	WebElement logout=driver.findElement(logoutProperty);
+	logout.click();
+	
+}
+
+@Then("^user should close the OrangeHRM Application along with browser$")
+public void user_should_close_the_OrangeHRM_Application_along_with_browser()
+{
+ 
+	driver.close();
+ 
+}
+
+
+
+
+
+
+
+}

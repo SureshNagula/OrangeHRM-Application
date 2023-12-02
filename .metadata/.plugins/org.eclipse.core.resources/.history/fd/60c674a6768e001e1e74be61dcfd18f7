@@ -1,0 +1,80 @@
+package com.StepDefination;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.Utility.Log;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class OrangeHRMApplicationUserDefinedMethods {
+	
+	public static WebDriver driver;
+	String applicationUrlAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/dashboard";
+
+@Given("^User Should Open Chrome Browser in The System$")
+public void user_Should_Open_Chrome_Browser_in_The_System() 
+{
+	System.setProperty("webdriver.chrome.driver", "./NewChromeDriverFile/chromedriver.exe");
+	driver = new ChromeDriver();
+	
+	Log.info(" Successfully launched Chrome Browser ");
+
+	
+}
+
+@When("^User Enters OrangeHRM Application URL Address$")
+public void user_Enters_OrangeHRM_Application_URL_Address() 
+{
+    
+    driver.get(applicationUrlAddress);
+    Log.info("Successfull Navigategint to Application");
+    driver.manage().window();
+    driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+}
+
+@Then("^User Should be Navigated To OrangeHRM Application Login WebPage$")
+
+public void user_Should_be_Navigated_To_OrangeHRM_Application_Login_WebPage() 
+{
+	
+	By logInPanelTextProperty=By.id("logInPanelHeading");
+	WebElement logInPanel=driver.findElement(logInPanelTextProperty);
+
+	String expected_OrangeHRMApplicationLogInPageText="LOGIN Panel";
+	Log.info(" The expected Text of the OrangeHRM Application LogIn Page is :- "+expected_OrangeHRMApplicationLogInPageText);
+
+
+	String actual_OrangeHRMApplicationLogInPageText=logInPanel.getText();
+	Log.info(" The actual Text of the OrangeHRM Application LogIn Page is :- "+actual_OrangeHRMApplicationLogInPageText);
+
+	if(actual_OrangeHRMApplicationLogInPageText.equals(expected_OrangeHRMApplicationLogInPageText))
+	{
+	Log.info(" OrangeHRM Application LogIn Page Text Validation Successfull - PASS ");
+	}
+	else
+	{
+	Log.info(" OrangeHRM Application LogIn Page Text Validation UNSuccessfull - FAIL ");
+	}
+
+   
+}
+
+@Then("^User Should Close the OrangeHRM Application along with the Browser$")
+public void user_Should_Close_the_OrangeHRM_Application_along_with_the_Browser() 
+{
+   
+    driver.quit();
+    Log.info("Successfully Closed The Browser");
+}
+
+
+
+}

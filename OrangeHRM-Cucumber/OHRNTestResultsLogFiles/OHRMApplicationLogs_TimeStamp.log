@@ -1,0 +1,287 @@
+2023-11-29 10:52:25,206 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 10:52:59,039 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:02:05,763 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:02:40,509 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:02:40,704 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:02:41,408 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:02:41,408 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:02:43,046 - Log -INFO - Successfully Closed The Browser
+2023-11-29 12:02:46,835 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:05:05,364 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:05:11,390 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:05:11,647 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:05:11,725 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:05:11,725 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:05:13,212 - Log -INFO - Successfully Closed The Browser
+2023-11-29 12:05:16,948 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:05:22,645 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:05:22,865 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:05:22,943 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:05:22,959 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:07:36,144 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:07:40,094 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:07:40,356 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:07:40,449 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:07:40,558 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:07:42,452 - Log -INFO - Successfully Closed The Browser
+2023-11-29 12:07:45,926 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:07:55,136 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:07:55,356 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:07:55,435 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:07:55,435 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:10:53,307 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:11:03,888 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:11:04,029 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:11:04,225 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:11:04,241 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:11:07,165 - Log -INFO - Successfully Closed The Browser
+2023-11-29 12:11:13,285 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:11:21,392 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:11:21,543 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:11:21,624 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:11:21,639 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:13:58,472 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:14:01,882 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:14:02,097 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:14:02,175 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:14:02,191 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:14:03,660 - Log -INFO - Successfully Closed The Browser
+2023-11-29 12:14:06,763 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:14:11,576 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:14:11,737 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:14:11,827 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:14:11,842 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:25:59,912 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:26:09,630 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:26:09,831 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:26:09,910 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:26:09,925 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:26:11,884 - Log -INFO - Successfully Closed The Browser
+2023-11-29 12:26:16,716 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:26:20,969 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:26:21,133 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:26:21,228 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:26:21,244 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:38:28,487 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:38:35,982 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:38:36,220 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:38:36,377 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:38:36,393 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:38:38,672 - Log -INFO - Successfully Closed The Browser
+2023-11-29 12:38:43,062 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:38:47,607 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:38:47,731 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:38:47,853 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:38:47,870 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:39:04,467 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:39:09,479 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:39:09,628 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:39:09,772 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:39:09,803 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:39:26,760 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:39:30,967 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:39:31,181 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:39:31,299 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:39:31,315 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:40:29,017 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:40:33,275 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:40:33,446 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:40:33,559 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:40:33,575 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 12:41:30,261 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 12:41:41,126 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 12:41:41,303 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:41:41,447 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 12:41:41,463 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 23:57:50,174 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 23:58:25,289 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 23:58:25,872 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 23:58:26,114 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 23:58:26,126 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 23:58:31,521 - Log -INFO - Successfully Closed The Browser
+2023-11-29 23:58:35,166 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 23:58:44,583 - Log -INFO - Successfull Navigategint to Application
+2023-11-29 23:58:44,737 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 23:58:44,868 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-29 23:58:44,880 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-29 23:59:50,588 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-29 23:59:59,921 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:00:09,592 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:00:09,844 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:00:10,009 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:00:10,024 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 00:01:04,799 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:01:16,113 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:01:16,252 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:01:16,369 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:01:16,386 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 00:01:28,966 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:01:35,516 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:01:35,642 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:01:35,752 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:01:35,762 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 00:03:06,995 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:03:21,695 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:03:21,820 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:03:21,910 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:03:21,932 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 00:08:51,831 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:09:20,929 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:09:21,726 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:09:21,843 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:09:21,855 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 00:09:55,699 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:09:59,827 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:10:00,357 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:10:00,449 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:10:00,459 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 00:10:12,928 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:10:13,666 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:11:11,606 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:11:14,408 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:11:14,995 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:11:15,079 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:11:15,111 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 00:17:02,180 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:17:06,918 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:17:07,458 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:17:07,529 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:17:07,539 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 00:19:13,452 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:19:20,375 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:19:20,882 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:19:20,985 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:19:20,997 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 00:23:45,707 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:23:48,982 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:23:49,503 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:23:49,611 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 00:23:49,621 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 00:24:28,340 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 00:24:32,060 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 00:24:36,147 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:32:14,053 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:32:21,153 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:32:21,880 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:32:22,536 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:32:22,536 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:32:25,010 - Log -INFO - Successfully Closed The Browser
+2023-11-30 07:32:28,211 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:32:32,218 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:32:37,489 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:32:37,914 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:32:37,976 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:32:38,007 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:32:47,964 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:32:48,754 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:32:48,770 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:32:56,589 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:33:01,440 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:33:01,836 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:33:01,929 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:33:01,944 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:33:04,166 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:33:12,598 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:33:16,818 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:33:17,252 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:33:17,330 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:33:17,343 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:33:19,469 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:33:25,466 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:33:31,360 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:33:33,913 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:33:33,998 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:33:34,014 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:33:39,860 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:33:40,174 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:33:40,174 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:33:48,240 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:33:52,671 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:33:53,101 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:33:53,204 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:33:53,235 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:33:58,839 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:33:59,120 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:33:59,120 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:34:26,939 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:34:27,050 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:34:27,058 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:34:35,172 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:34:40,132 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:34:40,605 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:34:40,681 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:34:40,697 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:34:47,064 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:34:47,412 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:34:47,428 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:35:13,076 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:35:13,210 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:35:13,226 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:35:20,333 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:35:24,251 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:35:24,678 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:35:24,773 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:35:24,789 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:35:30,324 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:35:30,689 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:35:30,704 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:35:56,332 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:35:56,469 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:35:56,477 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:41:44,288 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:41:47,650 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:41:48,363 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:41:48,472 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:41:48,488 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:41:54,214 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:41:54,515 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:41:54,529 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:42:18,192 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:42:18,317 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:42:18,332 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:42:25,472 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:45:08,858 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:45:12,749 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:45:13,170 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:45:13,248 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:45:13,280 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:45:19,065 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:45:19,321 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:45:19,331 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:45:43,713 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:45:43,818 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:45:43,827 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:47:09,777 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:47:13,087 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:47:13,635 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:47:13,721 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:47:13,737 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:47:15,161 - Log -INFO - Successfully Closed The Browser
+2023-11-30 07:47:18,057 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:47:25,422 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:47:29,675 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:47:30,708 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:48:03,842 - Log -INFO -  Successfully launched Chrome Browser 
+2023-11-30 07:48:07,204 - Log -INFO - Successfull Navigategint to Application
+2023-11-30 07:48:07,718 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:48:07,798 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-30 07:48:07,814 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-30 07:48:13,471 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:48:13,741 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:48:13,757 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-11-30 07:48:37,584 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-11-30 07:48:37,752 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-11-30 07:48:37,766 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-12-01 07:38:25,913 - Log -INFO -  Successfully launched Chrome Browser 
+2023-12-01 07:39:02,896 - Log -INFO - Successfull Navigategint to Application
+2023-12-01 07:44:26,450 - Log -INFO -  Successfully launched Chrome Browser 
+2023-12-01 07:44:45,436 - Log -INFO - Successfull Navigategint to Application
+2023-12-01 07:44:46,082 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-01 07:44:46,347 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-01 07:44:46,358 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-12-01 07:45:13,144 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-12-01 07:45:13,356 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-12-01 07:45:13,371 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2023-12-01 07:45:55,725 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2023-12-01 07:45:55,877 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2023-12-01 07:45:55,891 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass

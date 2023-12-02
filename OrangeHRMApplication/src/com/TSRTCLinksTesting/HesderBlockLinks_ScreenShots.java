@@ -1,0 +1,133 @@
+package com.TSRTCLinksTesting;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+
+public class HesderBlockLinks_ScreenShots {
+	
+	WebDriver driver;
+	String applicationUrlAddress="https://www.tsrtconline.in/oprs-web/";
+	
+	
+	public void launchingBrowser()
+	{
+	
+		
+		System.setProperty("webdriver.chrome.driver", "./broserDriveFiles/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	}
+		public void navigatingurl()
+		{
+			driver.get(applicationUrlAddress);
+		}
+		
+		
+		public void findingheaderblock() throws IOException
+		{
+			By tsrtc_HeaderBlockProperty=By.className("menu-wrap");
+			WebElement tsrtc_HeaderBlock=driver.findElement(tsrtc_HeaderBlockProperty);
+
+		     By headerBlockLinksProperty=By.tagName("a");
+
+			List<WebElement>tsrtc_HeaderBlockLinks=tsrtc_HeaderBlock.findElements(headerBlockLinksProperty);
+
+			int tsrtc_HeaderBlockLinks_Count=tsrtc_HeaderBlockLinks.size();
+
+			System.out.println(" The number of links in the Header Block of TSRTC Application are :- "+tsrtc_HeaderBlockLinks_Count);
+
+			for(int linksIndex=0;linksIndex<tsrtc_HeaderBlockLinks_Count;linksIndex=linksIndex+1)
+			{
+			String tsrtc_HeaderBlockLinkName=tsrtc_HeaderBlockLinks.get(linksIndex).getText();
+			System.out.println(linksIndex+" - "+tsrtc_HeaderBlockLinkName);
+
+			// Performing a click Operation on the Element of the Header Block
+
+			String expectedCurrentPageUrl=tsrtc_HeaderBlockLinks.get(linksIndex).getAttribute("href");
+					System.out.println("The expected Current URL of The Current Page is ="+expectedCurrentPageUrl);
+			tsrtc_HeaderBlockLinks.get(linksIndex).click();
+		
+			File linksScreenShot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);	
+			
+			 FileUtils.copyFile(linksScreenShot, new File("./screenshots/"+tsrtc_HeaderBlockLinkName+".png"));
+			
+			String actual_LinkPageTitle=driver.getTitle();
+
+			System.out.println(actual_LinkPageTitle);
+
+
+			String actualUrlOfCurrentPage=driver.getCurrentUrl();
+
+			System.out.println("The Actual URL Of Current Page Is ="+actualUrlOfCurrentPage);
+
+			if(actualUrlOfCurrentPage.contains(expectedCurrentPageUrl))
+			{
+				System.out.println("The Expected Current Page URL Matched with Actual URL of Current Page Is = Pass");
+				
+			}
+			else
+			{
+				System.out.println("The Expected Current Page URL NOT Matched With Actual URL of Current Page Is = Pass");
+			}
+			System.out.println();
+
+			//since the driver focus is in the next webPage after click operation is done
+			//the driver object should be shifted to the previous WebPage
+			driver.navigate().back();
+
+			//Identifying the Header Block again
+			tsrtc_HeaderBlock=driver.findElement(tsrtc_HeaderBlockProperty);
+			//Of the Hedear Block finding all the Elements and saving back into arrayList
+			tsrtc_HeaderBlockLinks=tsrtc_HeaderBlock.findElements(headerBlockLinksProperty);
+
+		}
+		
+		
+		}
+		
+		
+		
+		
+		
+		public static void main(String[] args) throws IOException {
+			
+			HesderBlockLinks_ScreenShots helo = new HesderBlockLinks_ScreenShots();
+			helo.launchingBrowser();
+			helo.navigatingurl();
+			helo.findingheaderblock();
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.OrangeHRMApplicationTestCases.OrangeHRMAddEmployeeTest">
+        <methods>
+          <include name="firstNameFunctionalityTest"/>
+          <include name="teardown"/>
+          <include name="logoutFunctionalityTest"/>
+          <include name="setup"/>
+          <include name="wecomeAdminFunctionalityTest"/>
+        </methods>
+      </class> <!-- com.OrangeHRMApplicationTestCases.OrangeHRMAddEmployeeTest -->
+      <class name="com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest">
+        <methods>
+          <include name="alternateLoginFunctionaitytext"/>
+          <include name="LoginpaneltextvalidationTest"/>
+          <include name="faceBookLinkFunctionalityTest"/>
+          <include name="passwordfunctionalityTest"/>
+          <include name="twitterlinkFunctionalityTest"/>
+          <include name="urllingbottomloginpageTest"/>
+          <include name="teardown"/>
+          <include name="linkdinLinkFunctionalityTest"/>
+          <include name="setup"/>
+          <include name="youTubelinkFunctionalityTest"/>
+          <include name="OrangeHRMLoginPageTitleTest"/>
+          <include name="userNameFunctionalTest"/>
+          <include name="downlevelLoginTest"/>
+          <include name="currentURLFunctionalityTest"/>
+          <include name="orangeHRMLogoValidationTest"/>
+          <include name="selectfunchtionalityTest"/>
+          <include name="loginclickfunctionalityTest"/>
+          <include name="tabfunctionalityTest"/>
+        </methods>
+      </class> <!-- com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

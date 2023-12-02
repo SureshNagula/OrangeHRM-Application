@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-22T18:59:32 IST" name="Suite" finished-at="2023-11-22T19:01:53 IST" duration-ms="140254">
+    <groups>
+    </groups>
+    <test started-at="2023-11-22T18:59:32 IST" name="Test" finished-at="2023-11-22T19:01:53 IST" duration-ms="140254">
+      <class name="com.OHRMChoosePhoto.ChoosePhoto">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.OHRMChoosePhoto.ChoosePhoto@18d87d80]" started-at="2023-11-22T18:59:33 IST" name="launchbrowser" finished-at="2023-11-22T18:59:58 IST" duration-ms="25829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="logintest()[pri:1, instance:com.OHRMChoosePhoto.ChoosePhoto@18d87d80]" started-at="2023-11-22T19:00:10 IST" name="logintest" description="logindatafrom excel file" finished-at="2023-11-22T19:01:13 IST" duration-ms="62209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="addEmployee()[pri:2, instance:com.OHRMChoosePhoto.ChoosePhoto@18d87d80]" started-at="2023-11-22T19:01:13 IST" name="addEmployee" description="addEmployee Test" finished-at="2023-11-22T19:01:50 IST" duration-ms="37692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OHRMChoosePhoto.ChoosePhoto@18d87d80]" started-at="2023-11-22T19:01:50 IST" name="tearDown" finished-at="2023-11-22T19:01:51 IST" duration-ms="1104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OHRMChoosePhoto.ChoosePhoto -->
+      <class name="com.OHRM_TenstNG.Login_Valid_Data_ExternalFileProperties">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OHRM_TenstNG.Login_Valid_Data_ExternalFileProperties@5acf93bb]" started-at="2023-11-22T18:59:58 IST" name="setup" finished-at="2023-11-22T19:00:10 IST" duration-ms="11804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:1, instance:com.OHRM_TenstNG.Login_Valid_Data_ExternalFileProperties@5acf93bb]" started-at="2023-11-22T19:00:10 IST" name="logintest" description="logindatafrom excel file" finished-at="2023-11-22T19:01:13 IST" duration-ms="62131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="wecomeadmintest()[pri:2, instance:com.OHRM_TenstNG.Login_Valid_Data_ExternalFileProperties@5acf93bb]" started-at="2023-11-22T19:01:13 IST" name="wecomeadmintest" description="welcome admin click" finished-at="2023-11-22T19:01:18 IST" duration-ms="5891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wecomeadmintest -->
+        <test-method signature="logouttest()[pri:3, instance:com.OHRM_TenstNG.Login_Valid_Data_ExternalFileProperties@5acf93bb]" started-at="2023-11-22T19:01:19 IST" name="logouttest" description="logout click" finished-at="2023-11-22T19:01:22 IST" duration-ms="3352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OHRM_TenstNG.Login_Valid_Data_ExternalFileProperties@5acf93bb]" started-at="2023-11-22T19:01:51 IST" name="teardown" finished-at="2023-11-22T19:01:53 IST" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.OHRM_TenstNG.Login_Valid_Data_ExternalFileProperties -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

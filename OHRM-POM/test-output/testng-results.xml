@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-28T12:08:50 IST" name="Default suite" finished-at="2023-11-28T12:11:50 IST" duration-ms="180277">
+    <groups>
+    </groups>
+    <test started-at="2023-11-28T12:08:50 IST" name="Default test" finished-at="2023-11-28T12:11:50 IST" duration-ms="180277">
+      <class name="com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:08:50 IST" name="setup" finished-at="2023-11-28T12:09:35 IST" duration-ms="44527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="currentURLFunctionalityTest()[pri:1, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:35 IST" name="currentURLFunctionalityTest" finished-at="2023-11-28T12:09:36 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentURLFunctionalityTest -->
+        <test-method signature="OrangeHRMLoginPageTitleTest()[pri:2, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:36 IST" name="OrangeHRMLoginPageTitleTest" finished-at="2023-11-28T12:09:36 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHRMLoginPageTitleTest -->
+        <test-method signature="LoginpaneltextvalidationTest()[pri:3, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:36 IST" name="LoginpaneltextvalidationTest" finished-at="2023-11-28T12:09:36 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginpaneltextvalidationTest -->
+        <test-method signature="orangeHRMLogoValidationTest()[pri:4, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:36 IST" name="orangeHRMLogoValidationTest" finished-at="2023-11-28T12:09:37 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMLogoValidationTest -->
+        <test-method signature="faceBookLinkFunctionalityTest()[pri:5, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:37 IST" name="faceBookLinkFunctionalityTest" finished-at="2023-11-28T12:09:38 IST" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookLinkFunctionalityTest -->
+        <test-method signature="twitterlinkFunctionalityTest()[pri:6, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:38 IST" name="twitterlinkFunctionalityTest" finished-at="2023-11-28T12:09:40 IST" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitterlinkFunctionalityTest -->
+        <test-method signature="youTubelinkFunctionalityTest()[pri:7, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:40 IST" name="youTubelinkFunctionalityTest" finished-at="2023-11-28T12:09:42 IST" duration-ms="1840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- youTubelinkFunctionalityTest -->
+        <test-method signature="alternateLoginFunctionaitytext()[pri:8, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:42 IST" name="alternateLoginFunctionaitytext" finished-at="2023-11-28T12:09:44 IST" duration-ms="2486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alternateLoginFunctionaitytext -->
+        <test-method signature="selectfunchtionalityTest()[pri:9, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:44 IST" name="selectfunchtionalityTest" finished-at="2023-11-28T12:09:53 IST" duration-ms="8632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectfunchtionalityTest -->
+        <test-method signature="downlevelLoginTest()[pri:10, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:53 IST" name="downlevelLoginTest" finished-at="2023-11-28T12:09:54 IST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downlevelLoginTest -->
+        <test-method signature="urllingbottomloginpageTest()[pri:11, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:54 IST" name="urllingbottomloginpageTest" finished-at="2023-11-28T12:09:55 IST" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urllingbottomloginpageTest -->
+        <test-method signature="linkdinLinkFunctionalityTest()[pri:12, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:55 IST" name="linkdinLinkFunctionalityTest" finished-at="2023-11-28T12:09:57 IST" duration-ms="1630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkdinLinkFunctionalityTest -->
+        <test-method signature="userNameFunctionalTest()[pri:13, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:09:57 IST" name="userNameFunctionalTest" finished-at="2023-11-28T12:10:26 IST" duration-ms="28997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameFunctionalTest -->
+        <test-method signature="passwordfunctionalityTest()[pri:14, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:10:26 IST" name="passwordfunctionalityTest" finished-at="2023-11-28T12:10:28 IST" duration-ms="1609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordfunctionalityTest -->
+        <test-method signature="loginclickfunctionalityTest()[pri:15, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:10:28 IST" name="loginclickfunctionalityTest" finished-at="2023-11-28T12:11:43 IST" duration-ms="74922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginclickfunctionalityTest -->
+        <test-method signature="tabfunctionalityTest()[pri:16, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:11:43 IST" name="tabfunctionalityTest" finished-at="2023-11-28T12:11:44 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabfunctionalityTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest@6404f418]" started-at="2023-11-28T12:11:44 IST" name="teardown" finished-at="2023-11-28T12:11:50 IST" duration-ms="6885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.OrangeHRMApplicationTestCases.OrangeHRMLoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

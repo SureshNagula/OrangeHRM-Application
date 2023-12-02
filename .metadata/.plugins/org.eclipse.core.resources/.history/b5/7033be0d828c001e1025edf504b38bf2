@@ -1,0 +1,31 @@
+package com.ReddifMailTest;
+
+import java.awt.Desktop.Action;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.BaseTest.BaseTest;
+
+public class ReddifMailLogin extends BaseTest{
+
+	public ReddifMailLogin()
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	Actions keybord = new Actions(driver);
+	
+	//<input type="text" id="login1" maxlength="100" name="login" value="" tabindex="1">
+	
+	@FindBy(name="login")
+	WebElement userNameProperty;
+	
+	public void userNameLoginFunctionality()
+	{
+		userNameProperty.click();
+		userNameProperty.sendKeys("suresh");
+	}
+}

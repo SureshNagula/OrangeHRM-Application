@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHrm Application]">
+  <test thread-count="5" name="choose photo(failed)">
+    <classes>
+      <class name="com.OHRMChoosePhoto.ChoosePhoto">
+        <methods>
+          <include name="addEmployee"/>
+          <include name="launchbrowser"/>
+          <include name="tearDown"/>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- com.OHRMChoosePhoto.ChoosePhoto -->
+    </classes>
+  </test> <!-- choose photo(failed) -->
+</suite> <!-- Failed suite [OrangeHrm Application] -->

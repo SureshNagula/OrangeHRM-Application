@@ -1,0 +1,200 @@
+package com.OrangeHRMApplicationWebPages;
+
+import org.apache.poi.poifs.storage.HeaderBlock;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.BaseTest.Base_Test;
+import com.Utility.Log;
+
+public class OrangeHRMAddEmployee extends Base_Test {
+	
+	Actions keyboard = new Actions(driver);
+	
+	public OrangeHRMAddEmployee()
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	
+	public void currentURLFunctionality()
+	{
+		String expected_CurrentURL="orangehrm-4.2.0.1";
+		
+		String actual_CurrentURL=driver.getCurrentUrl();
+		Log.info(actual_CurrentURL);
+		
+		if(actual_CurrentURL.equals(actual_CurrentURL))
+		{
+			Log.info("The Expected URL Contains Actual URL=Pass");
+		}
+		else
+		{
+			Log.info("The Expected URL does NOT Contains Actual URL=Fail");
+		}
+	
+	}
+
+	public void OrangeHRMLoginPageTitle()
+	{
+		String expected_actual_TitleOfLoginPage="OrangeHRM";
+		
+		String actual_TitleOfLoginPage=driver.getTitle();
+		
+		Log.info(actual_TitleOfLoginPage);
+		
+		if(actual_TitleOfLoginPage.contains(actual_TitleOfLoginPage))
+		{
+			Log.info("OrangeHRM Login Page Title is contais Expected Title = Pass");
+		}
+		else
+		{
+			Log.info("OrangeHRM Login Page Title is does NOT contais Expected Title = Fail");
+		}
+	}
+	
+	//<input name="txtUsername" id="txtUsername" type="text">
+	@FindBy(id="txtUsername")
+	WebElement usernameProperty;
+	
+	public  void userNameFunctional(String Username)
+	{
+		usernameProperty.sendKeys(Username);
+	}
+	
+	//<input name="txtPassword" id="txtPassword" autocomplete="off" type="password">
+	@FindBy(name="txtPassword")
+	WebElement passwordProperty;
+	
+	public void passwordfunctionality(String password)
+	{
+		passwordProperty.sendKeys(password);
+	}
+	
+	//<input type="submit" name="Submit" class="button" id="btnLogin" value="LOGIN">
+	@FindBy(className="button")
+	WebElement loginbuttonProperty;
+	
+	public void loginclickfunctionality()
+	{
+		loginbuttonProperty.click();
+	}
+	
+	
+	///html/body/div[1]/div[1]/a[1]/img
+	
+	@FindBy(xpath="/html/body/div[1]/div[1]/a[1]/img")
+	WebElement logoProperty;
+	
+	public void orangeHRMAddEmployeeLogoValidation()
+	{
+		 boolean flag=logoProperty.isDisplayed();
+		 if(flag)
+		 {
+			 Log.info("OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS ");
+		 }
+		 else
+		 {
+		 Log.info("OrangeHRM Applicaiton LogIn WebPage doesn Contain Logo - Fail ");
+		 }
+     }
+	
+	
+	
+	public void addEmployeeURLFunctionality()
+	{
+		String expected_CurrentURL="orangehrm-4.2.0.1";
+		
+		String actual_CurrentURL=driver.getCurrentUrl();
+		Log.info(actual_CurrentURL);
+		
+		if(actual_CurrentURL.equals(actual_CurrentURL))
+		{
+			Log.info("The Expected URL Contains Actual URL=Pass");
+		}
+		else
+		{
+			Log.info("The Expected URL does NOT Contains Actual URL=Fail");
+		}
+	
+	}
+
+	public void OrangeHRMAddEmployeePageTitle()
+	{
+		String expected_actual_TitleOfLoginPage="OrangeHRM";
+		
+		String actual_TitleOfLoginPage=driver.getTitle();
+		
+		Log.info(actual_TitleOfLoginPage);
+		
+		if(actual_TitleOfLoginPage.contains(actual_TitleOfLoginPage))
+		{
+			Log.info("OrangeHRM Login Page Title is contais Expected Title = Pass");
+		}
+		else
+		{
+			Log.info("OrangeHRM Login Page Title is does NOT contais Expected Title = Fail");
+		}
+	}
+
+	
+	///html/body/div[1]/div[2]/ul
+	@FindBy(xpath="/html/body/div[1]/div[2]/ul")
+     WebElement headerblock;
+	@FindBy(tagName="a")
+	WebElement links;
+	public void headerblocksFunctionality()
+	{
+		String linksName=links.getText();
+		Log.info(linksName);
+	}
+	
+	
+	//<a href="/orangehrm-4.2.0.1/symfony/web/index.php/pim/viewPimModule" id="menu_pim_viewPimModule" class="firstLevelMenu"><b>PIM</b></a>
+	@FindBy(id="menu_pim_viewPimModule")
+	WebElement pimProperty;
+	
+	public void pimLinkFunctionality()
+	{
+		keyboard.moveToElement(pimProperty).build().perform();
+	}
+	
+	////<a href="/orangehrm-4.2.0.1/symfony/web/index.php/pim/addEmployee" id="menu_pim_addEmployee">Add Employee</a>
+	@FindBy(id="menu_pim_addEmployee")
+	WebElement addemployeeproperty;
+	
+	public void addEmployeeLinkFunctionality()
+	{
+		addemployeeproperty.click();
+	}
+	
+	//<input class="formInputText" maxlength="30" type="text" name="firstName" id="firstName">
+	@FindBy(id="firstName")
+	WebElement firstNameProperty;
+	
+	//<input class="formInputText" maxlength="30" type="text" name="middleName" id="middleName">
+	@FindBy(id="middleName")
+	WebElement middleNameProperty;
+
+	//<input class="formInputText" maxlength="30" type="text" name="lastName" id="lastName">
+	@FindBy(id="lastName")
+	WebElement lastNameProperty;
+
+	
+	public void  firstNameFunctionality(String firstname,String MiddleName,String lastName)
+	{
+		firstNameProperty.sendKeys(firstname);
+		keyboard.sendKeys(Keys.TAB).build().perform();
+		middleNameProperty.sendKeys(MiddleName);
+		keyboard.sendKeys(Keys.TAB).build().perform();
+		lastNameProperty.sendKeys(lastName);
+		
+	}
+	
+
+
+
+}

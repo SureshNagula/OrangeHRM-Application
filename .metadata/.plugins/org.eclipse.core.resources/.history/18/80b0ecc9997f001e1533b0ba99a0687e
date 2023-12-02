@@ -1,0 +1,98 @@
+package com.WebTable_Names;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+
+public class CpaturingAllCountry_Names {
+
+	
+	WebDriver driver;
+	String applicatinurladdress="https://www.timeanddate.com/worldclock/";
+	
+	public void launchbrowser()
+	{
+		System.setProperty("webdriver.chrome.driver", "./broserDriveFiles/chromedriver.exe");
+		
+		driver =new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get(applicatinurladdress);
+	}
+	
+	
+	
+	public void test() throws IOException
+	{
+		
+	FileInputStream testdatafile= new FileInputStream("./src/com/WebTable_Country_Name_Excel/country names.xlsx");
+	XSSFWorkbook workbook = new XSSFWorkbook(testdatafile);
+	
+	System.out.println("11111111");
+	XSSFSheet testdatasheet =workbook.getSheet("Sheet1");
+	
+	int testdatalastrow=testdatasheet.getLastRowNum();
+	
+	for(int rowindex=1;rowindex<=36;rowindex++)
+	{
+		//Row testdatarow= testdatasheet.getRow(rowindex);
+		
+		//int testDataCellCount =testdatarow.getLastCellNum();
+		
+		System.out.println("22222");
+		
+		for(int rowofcell=1;rowofcell<=8;rowofcell++)
+		{
+			//Cell rowofcelldata=testdatarow.getCell(rowofcell);
+			
+			///html/body/div[5]/section[1]/div/section/div[1]/div/table/tbody/tr[1]/td[1]/a
+			
+			
+		By countryproperty=By.xpath("/html/body/div[5]/section[1]/div/section/div[1]/div/table/tbody/tr["+rowindex+"]/td["+rowofcell+"]");
+			WebElement testdatanames=driver.findElement(countryproperty);
+			String names=testdatanames.getText();
+			System.out.print(names+" | ");
+			
+			//rowofcelldata.setCellValue(names);
+			
+			//FileOutputStream w = new FileOutputStream("./src/com/WebTable_Country_Name_Excel/country names.xlsx");
+			//workbook.write(w);
+		
+		}
+		System.out.println();
+		
+		}
+}
+	
+	public static void main(String[] args) throws IOException {
+		CpaturingAllCountry_Names names= new CpaturingAllCountry_Names();
+		names.launchbrowser();
+		names.test();
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

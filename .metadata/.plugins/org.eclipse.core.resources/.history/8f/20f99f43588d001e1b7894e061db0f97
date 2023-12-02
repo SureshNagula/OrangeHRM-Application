@@ -1,0 +1,234 @@
+package com.OrangeHRMApplicationTestCases;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.BaseTest.Base_Test;
+import com.ExcelOperationsTestDataFiles.Excel_InPut_OutPut;
+import com.OrangeHRMApplicationWebPages.OrangeHRMAddEmployee;
+import com.OrangeHRMApplicationWebPages.OrangeHRMLoginPage;
+import com.Utility.Log;
+
+public class OrangeHRMAddEmployeeTest extends Base_Test {
+	
+	Excel_InPut_OutPut excel = new Excel_InPut_OutPut();
+	
+	
+	@Test(priority=1)
+	public void currentURLFunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.currentURLFunctionality();
+		
+	}
+	
+	@Test(priority=2)
+	public void LoginpaneltextvalidationTest() throws IOException
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.Loginpaneltextvalidation();
+	}
+	
+	
+	@Test(priority=3)
+	public void OrangeHRMLoginPageTitleTest() throws IOException
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.OrangeHRMLoginPageTitle();
+	}
+	
+	
+
+	@Test(priority=4)
+	public void userNameFunctionalTest() throws IOException
+	{
+	
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		
+		addEmployee.userNameFunctional(null);
+		
+	}
+		
+	@Test(priority=5)
+	public void passwordfunctionalityTest() throws IOException
+	{
+
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		
+		addEmployee.passwordfunctionality(null);
+		
+	}
+	
+	@Test(priority=6)
+	public void loginclickfunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.loginclickfunctionality();
+	}
+	
+	@Test(priority=7)
+	public void orangeHRMAddEmployeeLogoValidation()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.orangeHRMAddEmployeeLogoValidation();
+	}
+	
+	@Test(priority=8)
+	public void welcomeAdmintextFunctionalityTest() throws IOException
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.welcomeAdmintextFunctionality();
+	}
+	
+	@Test(priority=9)
+	public void addEmployeeURLFunctionality()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.addEmployeeURLFunctionality();
+	}
+	
+	@Test(priority=10)
+	public void OrangeHRMAddEmployeePageTitle()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.OrangeHRMAddEmployeePageTitle();
+	}
+	
+	@Test(priority=11)
+	public void headerblocksFunctionality()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.headerblocksFunctionality();
+	}
+	
+	@Test(priority=12)
+	public void pimLinkFunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.pimLinkFunctionality();
+	}
+	
+	@Test(priority=13)
+	public void addEmployeeLinkFunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.addEmployeeLinkFunctionality();
+	}
+	
+	@Test(priority=14)
+	public void addEmployeeTextFunctionalityTest() throws IOException
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.addEmployeeTextFunctionality();
+	}
+	
+	@Test(priority=15)
+	public void firstNameFunctionalityTest() throws IOException, InterruptedException
+	{
+		
+		//Excel_InPut_OutPut excel = new Excel_InPut_OutPut();
+		
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		
+		//String firstName=excel.getRowOfCellValue("./src/main/java/com/ExcelFiles/AddEmployee.xlsx", "Sheet1", 1, 14);
+	  
+	   // String middleneme=excel.getRowOfCellValue("./src/main/java/com/ExcelFiles/AddEmployee.xlsx", "Sheet1", 1, 15);
+	 
+	  //  String lastname=excel.getRowOfCellValue("./src/main/java/com/ExcelFiles/AddEmployee.xlsx", "Sheet1", 1, 16);
+	    
+	    addEmployee.firstNameFunctionality(null, null, null);
+	   // addEmployee.employeeIdFunctionality();
+	   // addEmployee.savebuttonfunctionnality();
+	  //  driver.navigate().back();
+	    
+	    
+	    
+		
+	}
+	
+	@Test(priority=13)
+	public void employeeIdFunctionalityTest() throws IOException, InterruptedException
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.employeeIdFunctionality();
+		
+	}
+	
+	@Test(priority=14)
+	public void savebuttonfunctionnality()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.savebuttonfunctionnality();
+	}
+	
+	@Test(priority=15)
+	public void profilePictureNameFunctionalityFunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.profilePictureNameFunctionality();
+		
+	}
+	
+	@Test(priority=15)
+	public void personalDetailsFunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.personalDetailsFunctionality();
+	}
+	
+	
+	@Test(priority=16)
+	public void firstNameDetailsFunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.firstNameDetailsFunctionality();
+	}
+	
+	@Test(priority=17)
+	public void middleNameDetailsFunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.middleNameDetailsFunctionality();
+	}
+	
+	@Test(priority=17)
+	public void lastNameDetailsFunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.lastNameDetailsFunctionality();
+	}
+	
+	@Test(priority=18)
+	public void employeeIdDetailsFunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.employeeIdDetailsFunctionality();
+	}
+	
+	@Test(priority=19)
+	public void wecomeAdminFunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.wecomeAdminFunctionality();
+	}
+	
+	@Test(priority=20)
+	public void logoutFunctionalityTest()
+	{
+		OrangeHRMAddEmployee addEmployee = new OrangeHRMAddEmployee();
+		addEmployee.logoutFunctionality();
+	}
+
+	
+	
+	
+	
+
+	
+	
+	
+}

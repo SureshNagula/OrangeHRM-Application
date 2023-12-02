@@ -1,0 +1,93 @@
+package com.Drop_Down_OU;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Drop_Down_Osmania {
+	
+	WebDriver driver;
+	String applicationUrl="https://www.osmania.ac.in/";
+	
+	public void setup()
+	{
+		System.setProperty("webdriver.chrome.driver", "./broserDriveFiles/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.MINUTES);
+		driver.get(applicationUrl);
+		
+	}
+
+	public void selectlanguages() throws IOException
+	{
+		By selectlanguageproperty=By.id("gtranslate_selector");
+		WebElement option=driver.findElement(selectlanguageproperty);
+		
+		//Select languageselection = new Select(seletlanguage);
+		
+		//languageselection.selectByIndex(2);
+		
+		//languageselection.selectByValue("en|te");
+		//languageselection.selectByVisibleText("Arabic");
+		By linkstagproperty=By.tagName("option");
+		List<WebElement> alllanguages=option.findElements(linkstagproperty);
+		//List<WebElement> alllanguages=option.getAllSelectedOptions();
+		int namescount=alllanguages.size();
+		
+		System.out.println(namescount);
+		
+		
+		for(int linksIndex=0;linksIndex<namescount;linksIndex=linksIndex+1)
+		{
+			String alllanguagesnames=alllanguages.get(linksIndex).getText();
+			System.out.print(alllanguagesnames);
+			FileInputStream test = new FileInputStream("./src/com/Drop_Down_Excel/DropDown.xlsx");
+			System.out.println("11111");
+			XSSFWorkbook workbook = new XSSFWorkbook(test);
+			System.out.println("22222222");
+			XSSFSheet testdatasheet =workbook.getSheet("Sheet1");
+			
+			System.out.println("%%%%%%%%%%%%");
+			System.out.println("#3333333#");
+			Row testdatarow=testdatasheet.getRow(linksIndex);
+			System.out.println("444444444444");
+			/*
+			Cell rowofcells=testdatarow.createCell(0);
+			System.out.println("celllllllllll");
+			rowofcells.setCellValue(alllanguagesnames);
+			//rowofcells.setCellValue(alllanguagesnames);
+			System.out.println("55555555555");
+			FileOutputStream teatresult = new FileOutputStream("./src/com/Drop_Down_Excel/DropDown.xlsx");
+			workbook.write(teatresult);
+			*/
+		}
+		System.out.println();
+		
+	}
+
+public static void main(String[] args) throws IOException {
+	
+	Drop_Down_Osmania options = new Drop_Down_Osmania();
+	options.setup();
+	options.selectlanguages();
+}
+
+
+
+
+
+}
+

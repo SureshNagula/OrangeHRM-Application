@@ -1,0 +1,31 @@
+
+
+package com.ReddifMailTest;
+
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+
+public class ReddifMailLoginTest extends BaseTest {
+
+	
+	@Test
+	public void userNameLoginFunctionalityTest()
+	{
+		ReddifMailLogin login = new ReddifMailLogin();
+		login.userNameLoginFunctionality();
+		
+		
+	}
+	
+
+	@Test
+	public void passwordNameLoginFunctionalityTest()
+	{
+		ReddifMailLogin login = new ReddifMailLogin();
+		login.passwordNameLoginFunctionality();
+		
+		
+	}
+	
+}

@@ -1,0 +1,50 @@
+package practice;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class PracticePurpose {
+   public static void main(String[] args) throws InterruptedException {
+	   
+	   
+		System.setProperty("webdriver.chrome.driver", "./broserDriveFiles/chromedriver.exe");
+		
+		ChromeDriver chromeBrowser = new ChromeDriver();
+		
+		
+		chromeBrowser.navigate().to("https://echoecho.com/htmlforms10.htm");
+		chromeBrowser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+	   //<input type="radio" name="group1" value="Milk">
+	   //<input type="radio" name="group1" value="Butter" checked="">
+		
+		
+	   By group1property=By.name("group1");
+	   List<WebElement>names=chromeBrowser.findElements(group1property);
+	   
+	   int radiobutton=names.size();
+	   
+	   for(int linkindex=0;linkindex<=radiobutton;linkindex++)
+	   {
+		   names.get(linkindex).click();
+		   
+		   Thread.sleep(5000);
+		  String  buttonnames=names.get(linkindex).getAttribute("value");
+		  
+		 for(int radio=0;radio<radiobutton;radio++)
+		 {
+			 names.get(linkindex).getAttribute("checked");
+		 }
+		  
+		  System.out.println();
+	   }
+	   
+	   
+	   
+}
+
+}

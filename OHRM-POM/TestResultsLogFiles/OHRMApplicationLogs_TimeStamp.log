@@ -1,0 +1,816 @@
+2023-11-25 15:36:29,783 - Log -INFO - Successfully launched the browser
+2023-11-25 15:36:39,409 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 15:36:40,738 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 15:36:43,313 - Log -INFO - Successfully closed the browser
+2023-11-25 15:39:46,144 - Log -INFO - Successfully launched the browser
+2023-11-25 15:39:53,009 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 15:39:53,808 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 15:39:56,016 - Log -INFO - Successfully closed the browser
+2023-11-25 15:41:43,304 - Log -INFO - Successfully launched the browser
+2023-11-25 15:41:49,758 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 15:41:50,533 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 15:41:53,198 - Log -INFO - Successfully closed the browser
+2023-11-25 15:46:16,893 - Log -INFO - Successfully launched the browser
+2023-11-25 15:46:22,268 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 15:46:23,471 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 15:46:25,086 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 15:46:25,098 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-25 15:46:28,037 - Log -INFO - Successfully closed the browser
+2023-11-25 16:15:11,146 - Log -INFO - Successfully launched the browser
+2023-11-25 16:15:14,209 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 16:15:15,969 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 16:15:16,394 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 16:15:16,411 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-25 16:15:16,774 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-25 16:15:18,530 - Log -INFO - Successfully closed the browser
+2023-11-25 17:10:28,534 - Log -INFO - Successfully launched the browser
+2023-11-25 17:10:39,973 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:10:41,336 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:10:42,021 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:10:42,048 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-25 17:10:42,565 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-25 17:10:44,613 - Log -INFO - Successfully closed the browser
+2023-11-25 17:14:30,278 - Log -INFO - Successfully launched the browser
+2023-11-25 17:14:35,830 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:14:37,277 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:14:37,550 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:14:37,570 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-25 17:14:44,682 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-25 17:14:59,315 - Log -INFO - Successfully closed the browser
+2023-11-25 17:26:02,855 - Log -INFO - Successfully launched the browser
+2023-11-25 17:26:07,942 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:26:09,209 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:26:09,434 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:26:09,530 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-25 17:26:10,573 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-25 17:26:17,035 - Log -INFO - Successfully closed the browser
+2023-11-25 17:27:49,836 - Log -INFO - Successfully launched the browser
+2023-11-25 17:27:53,443 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:27:55,119 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:27:55,343 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:27:55,368 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-25 17:27:55,722 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-25 17:28:53,434 - Log -INFO - Successfully closed the browser
+2023-11-25 17:53:27,384 - Log -INFO - Successfully launched the browser
+2023-11-25 17:53:32,136 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:53:33,238 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:53:33,745 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:53:33,761 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-25 17:53:35,908 - Log -INFO - Successfully closed the browser
+2023-11-25 17:53:41,206 - Log -INFO - Successfully launched the browser
+2023-11-25 17:53:45,274 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:53:46,058 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-25 17:53:47,669 - Log -INFO - Successfully closed the browser
+2023-11-25 17:53:51,347 - Log -INFO - Successfully launched the browser
+2023-11-25 17:53:56,874 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:54:06,701 - Log -INFO - Successfully closed the browser
+2023-11-25 17:54:11,148 - Log -INFO - Successfully launched the browser
+2023-11-25 17:54:16,718 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:54:19,365 - Log -INFO - Successfully closed the browser
+2023-11-25 17:54:23,241 - Log -INFO - Successfully launched the browser
+2023-11-25 17:54:28,533 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:54:31,678 - Log -INFO - Successfully closed the browser
+2023-11-25 17:54:36,197 - Log -INFO - Successfully launched the browser
+2023-11-25 17:55:01,979 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:55:09,840 - Log -INFO - Successfully closed the browser
+2023-11-25 17:58:19,169 - Log -INFO - Successfully launched the browser
+2023-11-25 17:58:25,663 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:58:27,495 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:58:28,470 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 17:58:28,481 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-25 17:58:31,831 - Log -INFO - Successfully closed the browser
+2023-11-25 17:58:36,732 - Log -INFO - Successfully launched the browser
+2023-11-25 17:59:02,873 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:59:05,437 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-25 17:59:08,488 - Log -INFO - Successfully closed the browser
+2023-11-25 17:59:14,422 - Log -INFO - Successfully launched the browser
+2023-11-25 17:59:21,799 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:59:32,225 - Log -INFO - Successfully closed the browser
+2023-11-25 17:59:35,998 - Log -INFO - Successfully launched the browser
+2023-11-25 17:59:40,901 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:59:43,446 - Log -INFO - Successfully closed the browser
+2023-11-25 17:59:47,329 - Log -INFO - Successfully launched the browser
+2023-11-25 17:59:55,700 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 17:59:58,204 - Log -INFO - Successfully closed the browser
+2023-11-25 18:00:01,792 - Log -INFO - Successfully launched the browser
+2023-11-25 18:00:09,128 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:00:46,677 - Log -INFO - Successfully closed the browser
+2023-11-25 18:04:13,866 - Log -INFO - Successfully launched the browser
+2023-11-25 18:04:19,505 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:04:23,320 - Log -INFO - Successfully closed the browser
+2023-11-25 18:04:28,287 - Log -INFO - Successfully launched the browser
+2023-11-25 18:09:31,034 - Log -INFO - Successfully launched the browser
+2023-11-25 18:09:38,250 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:09:42,130 - Log -INFO - Successfully closed the browser
+2023-11-25 18:11:46,643 - Log -INFO - Successfully launched the browser
+2023-11-25 18:11:50,187 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:11:52,863 - Log -INFO - Successfully closed the browser
+2023-11-25 18:11:56,787 - Log -INFO - Successfully launched the browser
+2023-11-25 18:12:01,627 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:12:02,519 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-25 18:12:04,152 - Log -INFO - Successfully closed the browser
+2023-11-25 18:14:58,412 - Log -INFO - Successfully launched the browser
+2023-11-25 18:15:02,840 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:15:05,312 - Log -INFO - Successfully closed the browser
+2023-11-25 18:15:09,822 - Log -INFO - Successfully launched the browser
+2023-11-25 18:16:46,672 - Log -INFO - Successfully launched the browser
+2023-11-25 18:16:52,631 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:16:55,866 - Log -INFO - Successfully closed the browser
+2023-11-25 18:17:01,362 - Log -INFO - Successfully launched the browser
+2023-11-25 18:17:02,298 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:18:01,224 - Log -INFO - Successfully launched the browser
+2023-11-25 18:18:06,229 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:18:08,889 - Log -INFO - Successfully closed the browser
+2023-11-25 18:18:13,855 - Log -INFO - Successfully launched the browser
+2023-11-25 18:38:03,326 - Log -INFO - Successfully launched the browser
+2023-11-25 18:38:07,051 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:38:08,160 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 18:38:08,517 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 18:38:08,532 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-25 18:38:10,356 - Log -INFO - Successfully closed the browser
+2023-11-25 18:38:14,826 - Log -INFO - Successfully launched the browser
+2023-11-25 18:38:19,697 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:38:20,854 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-25 18:38:22,747 - Log -INFO - Successfully closed the browser
+2023-11-25 18:38:26,876 - Log -INFO - Successfully launched the browser
+2023-11-25 18:38:31,797 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:38:40,655 - Log -INFO - Successfully closed the browser
+2023-11-25 18:38:44,980 - Log -INFO - Successfully launched the browser
+2023-11-25 18:38:49,193 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:38:52,278 - Log -INFO - Successfully closed the browser
+2023-11-25 18:39:00,986 - Log -INFO - Successfully launched the browser
+2023-11-25 18:39:24,603 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:39:34,965 - Log -INFO - Successfully closed the browser
+2023-11-25 18:39:43,169 - Log -INFO - Successfully launched the browser
+2023-11-25 18:39:52,314 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:39:59,704 - Log -INFO - Successfully closed the browser
+2023-11-25 18:40:15,291 - Log -INFO - Successfully launched the browser
+2023-11-25 18:40:30,101 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:40:43,900 - Log -INFO - Successfully closed the browser
+2023-11-25 18:40:55,716 - Log -INFO - Successfully launched the browser
+2023-11-25 18:41:09,554 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:41:13,221 - Log -INFO - Login
+2023-11-25 18:41:14,778 - Log -INFO - Successfully closed the browser
+2023-11-25 18:46:09,106 - Log -INFO - Successfully launched the browser
+2023-11-25 18:46:18,689 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:46:20,106 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 18:46:20,982 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-25 18:46:20,994 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-25 18:46:23,415 - Log -INFO - Successfully closed the browser
+2023-11-25 18:46:27,877 - Log -INFO - Successfully launched the browser
+2023-11-25 18:46:33,472 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:46:34,198 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-25 18:46:35,893 - Log -INFO - Successfully closed the browser
+2023-11-25 18:46:40,848 - Log -INFO - Successfully launched the browser
+2023-11-25 18:46:45,555 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:46:57,679 - Log -INFO - Successfully closed the browser
+2023-11-25 18:47:02,401 - Log -INFO - Successfully launched the browser
+2023-11-25 18:47:07,642 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:47:10,557 - Log -INFO - Successfully closed the browser
+2023-11-25 18:47:15,611 - Log -INFO - Successfully launched the browser
+2023-11-25 18:47:20,424 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:47:23,024 - Log -INFO - Successfully closed the browser
+2023-11-25 18:47:27,475 - Log -INFO - Successfully launched the browser
+2023-11-25 18:47:50,013 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:47:54,470 - Log -INFO - Successfully closed the browser
+2023-11-25 18:48:03,064 - Log -INFO - Successfully launched the browser
+2023-11-25 18:48:11,535 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:48:15,087 - Log -INFO - Successfully closed the browser
+2023-11-25 18:48:21,113 - Log -INFO - Successfully launched the browser
+2023-11-25 18:48:29,011 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-25 18:48:29,740 - Log -INFO - Login
+2023-11-25 18:48:31,436 - Log -INFO - Successfully closed the browser
+2023-11-26 09:18:44,921 - Log -INFO - Successfully launched the browser
+2023-11-26 09:18:54,324 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:18:55,673 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 09:18:56,193 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 09:18:56,212 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 09:18:58,174 - Log -INFO - Successfully closed the browser
+2023-11-26 09:19:03,116 - Log -INFO - Successfully launched the browser
+2023-11-26 09:19:11,891 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:19:13,025 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 09:19:16,034 - Log -INFO - Successfully closed the browser
+2023-11-26 09:19:21,166 - Log -INFO - Successfully launched the browser
+2023-11-26 09:19:52,267 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:20:02,949 - Log -INFO - Successfully closed the browser
+2023-11-26 09:20:09,872 - Log -INFO - Successfully launched the browser
+2023-11-26 09:20:17,913 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:20:20,236 - Log -INFO - Successfully closed the browser
+2023-11-26 09:20:24,802 - Log -INFO - Successfully launched the browser
+2023-11-26 09:20:43,448 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:20:46,023 - Log -INFO - Successfully closed the browser
+2023-11-26 09:20:49,795 - Log -INFO - Successfully launched the browser
+2023-11-26 09:20:54,163 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:20:56,516 - Log -INFO - Successfully closed the browser
+2023-11-26 09:21:00,546 - Log -INFO - Successfully launched the browser
+2023-11-26 09:21:05,313 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:21:08,170 - Log -INFO - -- Select --
+2023-11-26 09:21:10,189 - Log -INFO - Successfully closed the browser
+2023-11-26 09:21:17,947 - Log -INFO - Successfully launched the browser
+2023-11-26 09:22:34,413 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:22:56,241 - Log -INFO - Login
+2023-11-26 09:23:02,929 - Log -INFO - Successfully closed the browser
+2023-11-26 09:30:00,198 - Log -INFO - Successfully launched the browser
+2023-11-26 09:30:04,222 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:30:07,651 - Log -INFO - Successfully closed the browser
+2023-11-26 09:30:11,596 - Log -INFO - Successfully launched the browser
+2023-11-26 09:30:17,456 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:30:18,052 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 09:30:20,460 - Log -INFO - Successfully closed the browser
+2023-11-26 09:30:25,769 - Log -INFO - Successfully launched the browser
+2023-11-26 09:30:30,960 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:30:36,796 - Log -INFO - Successfully closed the browser
+2023-11-26 09:30:40,340 - Log -INFO - Successfully launched the browser
+2023-11-26 09:32:02,722 - Log -INFO - Successfully launched the browser
+2023-11-26 09:32:07,158 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:32:09,492 - Log -INFO - Successfully closed the browser
+2023-11-26 09:32:12,981 - Log -INFO - Successfully launched the browser
+2023-11-26 09:32:17,040 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:32:17,728 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 09:32:19,746 - Log -INFO - Successfully closed the browser
+2023-11-26 09:32:24,105 - Log -INFO - Successfully launched the browser
+2023-11-26 09:32:29,107 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:32:34,238 - Log -INFO - Successfully closed the browser
+2023-11-26 09:32:37,721 - Log -INFO - Successfully launched the browser
+2023-11-26 09:32:42,887 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:32:45,578 - Log -INFO - Successfully closed the browser
+2023-11-26 09:32:49,503 - Log -INFO - Successfully launched the browser
+2023-11-26 09:32:56,066 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:32:58,433 - Log -INFO - Successfully closed the browser
+2023-11-26 09:33:01,932 - Log -INFO - Successfully launched the browser
+2023-11-26 09:33:06,561 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:33:07,053 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 09:33:07,225 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 09:33:07,236 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 09:33:08,944 - Log -INFO - Successfully closed the browser
+2023-11-26 09:33:12,421 - Log -INFO - Successfully launched the browser
+2023-11-26 09:33:17,647 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:33:18,538 - Log -INFO - -- Select --
+2023-11-26 09:33:20,195 - Log -INFO - Successfully closed the browser
+2023-11-26 09:33:23,808 - Log -INFO - Successfully launched the browser
+2023-11-26 09:33:28,046 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:33:28,619 - Log -INFO - Login
+2023-11-26 09:33:30,063 - Log -INFO - Successfully closed the browser
+2023-11-26 09:37:01,806 - Log -INFO - Successfully launched the browser
+2023-11-26 09:37:07,874 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:37:08,574 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 09:37:11,058 - Log -INFO - Successfully closed the browser
+2023-11-26 09:37:15,177 - Log -INFO - Successfully launched the browser
+2023-11-26 09:37:21,323 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:37:22,041 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 09:37:24,058 - Log -INFO - Successfully closed the browser
+2023-11-26 09:37:27,739 - Log -INFO - Successfully launched the browser
+2023-11-26 09:37:35,261 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:37:40,596 - Log -INFO - Successfully closed the browser
+2023-11-26 09:37:45,642 - Log -INFO - Successfully launched the browser
+2023-11-26 09:37:52,361 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:37:55,891 - Log -INFO - Successfully closed the browser
+2023-11-26 09:38:00,621 - Log -INFO - Successfully launched the browser
+2023-11-26 09:38:06,822 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:38:09,361 - Log -INFO - Successfully closed the browser
+2023-11-26 09:38:14,947 - Log -INFO - Successfully launched the browser
+2023-11-26 09:38:20,738 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:38:21,117 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 09:38:21,238 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 09:38:21,256 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 09:38:23,044 - Log -INFO - Successfully closed the browser
+2023-11-26 09:38:26,887 - Log -INFO - Successfully launched the browser
+2023-11-26 09:38:31,735 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:38:32,592 - Log -INFO - -- Select --
+2023-11-26 09:38:34,175 - Log -INFO - Successfully closed the browser
+2023-11-26 09:38:37,990 - Log -INFO - Successfully launched the browser
+2023-11-26 09:38:42,430 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:38:42,860 - Log -INFO - Login
+2023-11-26 09:38:44,489 - Log -INFO - Successfully closed the browser
+2023-11-26 09:41:02,572 - Log -INFO - Successfully launched the browser
+2023-11-26 09:41:06,446 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:41:07,521 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 09:41:07,559 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 09:41:10,031 - Log -INFO - Successfully closed the browser
+2023-11-26 09:41:17,204 - Log -INFO - Successfully launched the browser
+2023-11-26 09:41:18,425 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:48:43,781 - Log -INFO - Successfully launched the browser
+2023-11-26 09:48:52,354 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:48:53,290 - Log -INFO - -- Select --
+2023-11-26 09:49:05,495 - Log -INFO - Successfully closed the browser
+2023-11-26 09:50:30,148 - Log -INFO - Successfully launched the browser
+2023-11-26 09:50:35,122 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:50:36,134 - Log -INFO - -- Select --
+2023-11-26 09:50:37,976 - Log -INFO - Successfully closed the browser
+2023-11-26 09:51:48,860 - Log -INFO - Successfully launched the browser
+2023-11-26 09:51:52,400 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:51:52,999 - Log -INFO - OrangeHRM
+2023-11-26 09:51:53,009 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 09:51:54,685 - Log -INFO - Successfully closed the browser
+2023-11-26 09:51:58,302 - Log -INFO - Successfully launched the browser
+2023-11-26 09:52:02,457 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:52:02,770 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 09:52:02,909 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 09:52:02,923 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 09:52:04,620 - Log -INFO - Successfully closed the browser
+2023-11-26 09:52:08,336 - Log -INFO - Successfully launched the browser
+2023-11-26 09:52:12,465 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:52:14,384 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 09:52:16,059 - Log -INFO - Successfully closed the browser
+2023-11-26 09:52:20,330 - Log -INFO - Successfully launched the browser
+2023-11-26 09:52:25,669 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:52:34,279 - Log -INFO - Successfully closed the browser
+2023-11-26 09:52:38,594 - Log -INFO - Successfully launched the browser
+2023-11-26 09:52:44,267 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:52:46,634 - Log -INFO - Successfully closed the browser
+2023-11-26 09:52:50,793 - Log -INFO - Successfully launched the browser
+2023-11-26 09:52:55,610 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:52:58,188 - Log -INFO - Successfully closed the browser
+2023-11-26 09:53:02,259 - Log -INFO - Successfully launched the browser
+2023-11-26 09:53:07,025 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:53:07,430 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 09:53:07,439 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 09:53:08,905 - Log -INFO - Successfully closed the browser
+2023-11-26 09:53:12,080 - Log -INFO - Successfully launched the browser
+2023-11-26 09:53:16,670 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:53:17,570 - Log -INFO - -- Select --
+2023-11-26 09:53:19,790 - Log -INFO - Successfully closed the browser
+2023-11-26 09:53:23,577 - Log -INFO - Successfully launched the browser
+2023-11-26 09:53:29,365 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 09:53:29,871 - Log -INFO - Login
+2023-11-26 09:53:31,885 - Log -INFO - Successfully closed the browser
+2023-11-26 10:37:04,013 - Log -INFO - Successfully launched the browser
+2023-11-26 10:37:10,762 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:37:11,662 - Log -INFO - OrangeHRM
+2023-11-26 10:37:11,673 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 10:37:14,436 - Log -INFO - Successfully closed the browser
+2023-11-26 10:37:21,501 - Log -INFO - Successfully launched the browser
+2023-11-26 10:37:25,973 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:37:26,383 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 10:37:26,673 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 10:37:26,684 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 10:37:29,292 - Log -INFO - Successfully closed the browser
+2023-11-26 10:37:35,311 - Log -INFO - Successfully launched the browser
+2023-11-26 10:37:42,088 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:37:43,008 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 10:37:50,918 - Log -INFO - Successfully closed the browser
+2023-11-26 10:37:56,255 - Log -INFO - Successfully launched the browser
+2023-11-26 10:38:01,232 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:38:16,367 - Log -INFO - Successfully closed the browser
+2023-11-26 10:38:22,128 - Log -INFO - Successfully launched the browser
+2023-11-26 10:38:27,687 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:38:30,455 - Log -INFO - Successfully closed the browser
+2023-11-26 10:38:36,878 - Log -INFO - Successfully launched the browser
+2023-11-26 10:38:40,657 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:38:43,022 - Log -INFO - Successfully closed the browser
+2023-11-26 10:38:47,202 - Log -INFO - Successfully launched the browser
+2023-11-26 10:38:51,289 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:38:51,804 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 10:38:51,813 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 10:38:53,365 - Log -INFO - Successfully closed the browser
+2023-11-26 10:38:57,699 - Log -INFO - Successfully launched the browser
+2023-11-26 10:39:01,605 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:39:02,626 - Log -INFO - -- Select --
+2023-11-26 10:39:04,164 - Log -INFO - Successfully closed the browser
+2023-11-26 10:39:08,360 - Log -INFO - Successfully launched the browser
+2023-11-26 10:39:12,501 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:39:13,135 - Log -INFO - Login
+2023-11-26 10:39:14,784 - Log -INFO - Successfully closed the browser
+2023-11-26 10:39:18,912 - Log -INFO - Successfully launched the browser
+2023-11-26 10:39:24,507 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:39:27,183 - Log -INFO - Successfully closed the browser
+2023-11-26 10:39:31,322 - Log -INFO - Successfully launched the browser
+2023-11-26 10:39:35,411 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:39:37,932 - Log -INFO - Successfully closed the browser
+2023-11-26 10:39:42,300 - Log -INFO - Successfully launched the browser
+2023-11-26 10:39:46,033 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:39:48,671 - Log -INFO - Successfully closed the browser
+2023-11-26 10:39:52,729 - Log -INFO - Successfully launched the browser
+2023-11-26 10:39:57,416 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:40:00,110 - Log -INFO - Successfully closed the browser
+2023-11-26 10:40:03,397 - Log -INFO - Successfully launched the browser
+2023-11-26 10:40:08,291 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:40:10,629 - Log -INFO - Successfully closed the browser
+2023-11-26 10:50:15,247 - Log -INFO - Successfully launched the browser
+2023-11-26 10:50:19,129 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:50:21,554 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:50:21,570 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 10:50:24,013 - Log -INFO - Successfully closed the browser
+2023-11-26 10:50:31,723 - Log -INFO - Successfully launched the browser
+2023-11-26 10:50:37,133 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:50:37,645 - Log -INFO - OrangeHRM
+2023-11-26 10:50:37,657 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 10:50:39,705 - Log -INFO - Successfully closed the browser
+2023-11-26 10:50:43,833 - Log -INFO - Successfully launched the browser
+2023-11-26 10:50:47,912 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:50:48,298 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 10:50:48,781 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 10:50:48,795 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 10:50:50,682 - Log -INFO - Successfully closed the browser
+2023-11-26 10:50:55,181 - Log -INFO - Successfully launched the browser
+2023-11-26 10:50:59,071 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:50:59,920 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 10:51:01,602 - Log -INFO - Successfully closed the browser
+2023-11-26 10:51:05,315 - Log -INFO - Successfully launched the browser
+2023-11-26 10:51:19,446 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:51:33,096 - Log -INFO - Successfully closed the browser
+2023-11-26 10:51:40,747 - Log -INFO - Successfully launched the browser
+2023-11-26 10:51:49,199 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:51:52,047 - Log -INFO - Successfully closed the browser
+2023-11-26 10:51:55,603 - Log -INFO - Successfully launched the browser
+2023-11-26 10:51:59,832 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:52:03,315 - Log -INFO - Successfully closed the browser
+2023-11-26 10:52:07,378 - Log -INFO - Successfully launched the browser
+2023-11-26 10:52:13,178 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:52:13,969 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 10:52:13,985 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 10:52:16,913 - Log -INFO - Successfully closed the browser
+2023-11-26 10:52:22,119 - Log -INFO - Successfully launched the browser
+2023-11-26 10:52:27,315 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:52:28,808 - Log -INFO - -- Select --
+2023-11-26 10:52:31,303 - Log -INFO - Successfully closed the browser
+2023-11-26 10:52:36,831 - Log -INFO - Successfully launched the browser
+2023-11-26 10:52:42,371 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:52:43,049 - Log -INFO - Login
+2023-11-26 10:52:45,111 - Log -INFO - Successfully closed the browser
+2023-11-26 10:52:49,052 - Log -INFO - Successfully launched the browser
+2023-11-26 10:52:54,021 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:52:57,874 - Log -INFO - Successfully closed the browser
+2023-11-26 10:53:02,603 - Log -INFO - Successfully launched the browser
+2023-11-26 10:53:07,591 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:53:10,172 - Log -INFO - Successfully closed the browser
+2023-11-26 10:53:13,725 - Log -INFO - Successfully launched the browser
+2023-11-26 10:54:59,045 - Log -INFO - Successfully launched the browser
+2023-11-26 10:55:03,061 - Log -INFO - Successfully launched the browser
+2023-11-26 10:55:20,970 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:55:22,295 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:55:23,856 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:55:23,868 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 10:55:24,202 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:55:24,218 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 10:55:25,950 - Log -INFO - Successfully closed the browser
+2023-11-26 10:55:26,973 - Log -INFO - Successfully closed the browser
+2023-11-26 10:55:36,140 - Log -INFO - Successfully launched the browser
+2023-11-26 10:55:38,834 - Log -INFO - Successfully launched the browser
+2023-11-26 10:55:46,249 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:55:46,788 - Log -INFO - OrangeHRM
+2023-11-26 10:55:46,813 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 10:55:47,920 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:55:48,721 - Log -INFO - OrangeHRM
+2023-11-26 10:55:48,741 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 10:55:50,662 - Log -INFO - Successfully closed the browser
+2023-11-26 10:55:51,243 - Log -INFO - Successfully closed the browser
+2023-11-26 10:55:56,575 - Log -INFO - Successfully launched the browser
+2023-11-26 10:56:01,083 - Log -INFO - Successfully launched the browser
+2023-11-26 10:56:09,030 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:56:09,764 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 10:56:10,008 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 10:56:10,028 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 10:56:12,284 - Log -INFO - Successfully closed the browser
+2023-11-26 10:56:13,339 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:56:13,891 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 10:56:14,143 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 10:56:14,162 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 10:56:16,654 - Log -INFO - Successfully closed the browser
+2023-11-26 10:56:19,446 - Log -INFO - Successfully launched the browser
+2023-11-26 10:56:25,460 - Log -INFO - Successfully launched the browser
+2023-11-26 10:56:31,695 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:56:32,997 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 10:56:34,652 - Log -INFO - Successfully closed the browser
+2023-11-26 10:56:35,969 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:56:36,903 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 10:56:38,849 - Log -INFO - Successfully closed the browser
+2023-11-26 10:56:40,997 - Log -INFO - Successfully launched the browser
+2023-11-26 10:56:45,914 - Log -INFO - Successfully launched the browser
+2023-11-26 10:56:50,227 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:56:56,539 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:57:05,752 - Log -INFO - Successfully closed the browser
+2023-11-26 10:57:05,786 - Log -INFO - Successfully closed the browser
+2023-11-26 10:57:14,575 - Log -INFO - Successfully launched the browser
+2023-11-26 10:57:16,094 - Log -INFO - Successfully launched the browser
+2023-11-26 10:57:22,537 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:57:24,969 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:57:28,545 - Log -INFO - Successfully closed the browser
+2023-11-26 10:57:29,020 - Log -INFO - Successfully closed the browser
+2023-11-26 10:57:41,362 - Log -INFO - Successfully launched the browser
+2023-11-26 10:57:51,278 - Log -INFO - Successfully launched the browser
+2023-11-26 10:58:08,056 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:58:08,499 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:58:13,805 - Log -INFO - Successfully closed the browser
+2023-11-26 10:58:13,870 - Log -INFO - Successfully closed the browser
+2023-11-26 10:58:22,463 - Log -INFO - Successfully launched the browser
+2023-11-26 10:58:23,446 - Log -INFO - Successfully launched the browser
+2023-11-26 10:58:32,073 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:58:33,547 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 10:58:33,564 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 10:58:36,955 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:58:37,671 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 10:58:37,685 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 10:58:38,609 - Log -INFO - Successfully closed the browser
+2023-11-26 10:58:39,429 - Log -INFO - Successfully closed the browser
+2023-11-26 10:58:46,255 - Log -INFO - Successfully launched the browser
+2023-11-26 10:58:47,512 - Log -INFO - Successfully launched the browser
+2023-11-26 10:58:55,919 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:58:57,389 - Log -INFO - -- Select --
+2023-11-26 10:59:00,682 - Log -INFO - Successfully closed the browser
+2023-11-26 10:59:01,359 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:59:03,554 - Log -INFO - -- Select --
+2023-11-26 10:59:06,380 - Log -INFO - Successfully closed the browser
+2023-11-26 10:59:08,291 - Log -INFO - Successfully launched the browser
+2023-11-26 10:59:14,315 - Log -INFO - Successfully launched the browser
+2023-11-26 10:59:25,839 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:59:27,083 - Log -INFO - Login
+2023-11-26 10:59:28,817 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 10:59:29,417 - Log -INFO - Login
+2023-11-26 10:59:31,461 - Log -INFO - Successfully closed the browser
+2023-11-26 10:59:31,521 - Log -INFO - Successfully closed the browser
+2023-11-26 10:59:49,301 - Log -INFO - Successfully launched the browser
+2023-11-26 10:59:49,310 - Log -INFO - Successfully launched the browser
+2023-11-26 11:00:03,843 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:00:06,098 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:00:09,340 - Log -INFO - Successfully closed the browser
+2023-11-26 11:00:09,688 - Log -INFO - Successfully closed the browser
+2023-11-26 11:00:18,047 - Log -INFO - Successfully launched the browser
+2023-11-26 11:00:20,581 - Log -INFO - Successfully launched the browser
+2023-11-26 11:00:26,015 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:00:30,989 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:00:32,453 - Log -INFO - Successfully closed the browser
+2023-11-26 11:00:34,037 - Log -INFO - Successfully closed the browser
+2023-11-26 11:00:37,577 - Log -INFO - Successfully launched the browser
+2023-11-26 11:00:41,843 - Log -INFO - Successfully launched the browser
+2023-11-26 11:00:47,575 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:00:52,842 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:00:54,972 - Log -INFO - Successfully closed the browser
+2023-11-26 11:00:55,924 - Log -INFO - Successfully closed the browser
+2023-11-26 11:01:04,737 - Log -INFO - Successfully launched the browser
+2023-11-26 11:01:06,203 - Log -INFO - Successfully launched the browser
+2023-11-26 11:01:13,516 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:01:16,735 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:01:18,602 - Log -INFO - Successfully closed the browser
+2023-11-26 11:01:19,981 - Log -INFO - Successfully closed the browser
+2023-11-26 11:01:26,448 - Log -INFO - Successfully launched the browser
+2023-11-26 11:01:27,871 - Log -INFO - Successfully launched the browser
+2023-11-26 11:01:36,544 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:01:38,565 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:01:50,636 - Log -INFO - Successfully closed the browser
+2023-11-26 11:01:51,155 - Log -INFO - Successfully closed the browser
+2023-11-26 11:03:02,984 - Log -INFO - Successfully launched the browser
+2023-11-26 11:03:09,582 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:03:10,533 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:03:10,545 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 11:03:10,696 - Log -INFO - OrangeHRM
+2023-11-26 11:03:10,713 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 11:03:10,760 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:03:11,045 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:03:11,056 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 11:03:11,458 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 11:07:38,875 - Log -INFO - Successfully launched the browser
+2023-11-26 11:07:57,318 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:07:59,621 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:07:59,633 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 11:08:00,424 - Log -INFO - OrangeHRM
+2023-11-26 11:08:00,436 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 11:08:00,463 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:08:01,498 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:08:01,515 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 11:08:03,798 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 11:08:23,781 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 11:08:23,801 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 11:08:46,700 - Log -INFO - Successfully launched the browser
+2023-11-26 11:08:46,888 - Log -INFO - Successfully launched the browser
+2023-11-26 11:08:54,079 - Log -INFO - -- Select --
+2023-11-26 11:08:54,699 - Log -INFO - Login
+2023-11-26 11:09:23,565 - Log -INFO - Successfully launched the browser
+2023-11-26 11:09:30,805 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:09:33,449 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:09:42,670 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:09:42,672 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:09:42,692 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 11:09:42,691 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 11:09:43,173 - Log -INFO - 
+2023-11-26 11:09:43,182 - Log -INFO - 
+2023-11-26 11:09:43,202 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 11:09:43,194 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 11:09:43,264 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:09:43,300 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:09:44,285 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:09:44,301 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:09:44,305 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 11:09:44,316 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 11:10:36,695 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:10:39,593 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:10:39,606 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 11:10:40,082 - Log -INFO - 127.0.0.1
+2023-11-26 11:10:40,107 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 11:10:40,145 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:12:12,207 - Log -INFO - Successfully closed the browser
+2023-11-26 11:13:17,921 - Log -INFO - Successfully closed the browser
+2023-11-26 11:13:26,935 - Log -INFO - Successfully closed the browser
+2023-11-26 11:13:28,817 - Log -INFO - Successfully closed the browser
+2023-11-26 11:14:29,545 - Log -INFO - Successfully launched the browser
+2023-11-26 11:14:35,878 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:14:36,860 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:14:36,873 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 11:14:37,033 - Log -INFO - OrangeHRM
+2023-11-26 11:14:37,047 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 11:14:37,090 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:14:37,268 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:14:37,279 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 11:14:37,638 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 11:14:44,438 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 11:14:44,450 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 11:14:45,671 - Log -INFO - -- Select --
+2023-11-26 11:14:45,837 - Log -INFO - Login
+2023-11-26 11:15:42,053 - Log -INFO - Successfully closed the browser
+2023-11-26 11:17:40,080 - Log -INFO - Successfully launched the browser
+2023-11-26 11:17:44,971 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:17:45,812 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:17:45,825 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 11:17:45,948 - Log -INFO - OrangeHRM
+2023-11-26 11:17:45,964 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 11:17:46,071 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:17:46,365 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:17:46,377 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 11:17:46,736 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 11:18:17,500 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 11:18:17,513 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 11:18:32,289 - Log -INFO - -- Select --
+2023-11-26 11:18:32,539 - Log -INFO - Login
+2023-11-26 11:34:32,195 - Log -INFO - Successfully launched the browser
+2023-11-26 11:34:38,277 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:34:39,482 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:34:39,493 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 11:34:39,632 - Log -INFO - OrangeHRM
+2023-11-26 11:34:39,646 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 11:34:39,711 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:34:39,944 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:34:39,953 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 11:34:40,268 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 11:34:45,756 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 11:34:45,775 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 11:34:58,012 - Log -INFO - -- Select --
+2023-11-26 11:34:58,342 - Log -INFO - Login
+2023-11-26 11:42:26,049 - Log -INFO - Successfully launched the browser
+2023-11-26 11:42:33,786 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:42:35,055 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:42:35,066 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 11:42:35,202 - Log -INFO - OrangeHRM
+2023-11-26 11:42:35,214 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 11:42:35,259 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:42:35,530 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:42:35,551 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 11:42:35,868 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 11:42:46,071 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 11:42:46,106 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 11:42:48,585 - Log -INFO - -- Select --
+2023-11-26 11:42:48,767 - Log -INFO - Login
+2023-11-26 11:58:19,306 - Log -INFO - Successfully launched the browser
+2023-11-26 11:58:24,706 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:58:25,721 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 11:58:25,732 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 11:58:25,998 - Log -INFO - OrangeHRM
+2023-11-26 11:58:26,012 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 11:58:26,059 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:58:26,239 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 11:58:26,249 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 11:58:26,567 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 11:58:37,163 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 11:58:37,174 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 11:58:55,282 - Log -INFO - -- Select --
+2023-11-26 11:58:55,847 - Log -INFO - Login
+2023-11-26 12:02:02,435 - Log -INFO - Successfully launched the browser
+2023-11-26 12:02:02,744 - Log -INFO - Successfully launched the browser
+2023-11-26 12:02:12,641 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 12:02:15,365 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 12:02:16,716 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 12:02:16,727 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 12:02:17,115 - Log -INFO - OrangeHRM
+2023-11-26 12:02:17,130 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 12:02:17,183 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 12:02:17,292 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 12:02:17,303 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 12:02:17,455 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 12:02:17,466 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 12:02:17,887 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 12:02:17,939 - Log -INFO - OrangeHRM
+2023-11-26 12:02:17,952 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 12:02:17,991 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 12:02:19,013 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 12:02:19,024 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 12:02:19,381 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 12:02:40,915 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 12:02:40,928 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 12:02:41,596 - Log -INFO - -- Select --
+2023-11-26 12:02:44,348 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 12:02:46,254 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 12:02:49,901 - Log -INFO - Login
+2023-11-26 12:03:02,991 - Log -INFO - -- Select --
+2023-11-26 12:03:03,516 - Log -INFO - Login
+2023-11-26 12:27:31,483 - Log -INFO - Successfully launched the browser
+2023-11-26 12:28:05,935 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 12:28:07,577 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 12:28:07,591 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 12:28:07,737 - Log -INFO - 127.0.0.1
+2023-11-26 12:28:07,752 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 12:28:07,786 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 12:29:21,303 - Log -INFO - Successfully launched the browser
+2023-11-26 12:29:37,907 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 12:29:38,843 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 12:29:38,853 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 12:29:39,078 - Log -INFO - OrangeHRM
+2023-11-26 12:29:39,092 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 12:29:39,149 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 12:29:39,436 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 12:29:39,447 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 12:29:39,811 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 12:29:53,099 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 12:29:53,155 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 12:30:14,175 - Log -INFO - -- Select --
+2023-11-26 12:30:14,888 - Log -INFO - Login
+2023-11-26 13:57:44,828 - Log -INFO - Successfully launched the browser
+2023-11-26 13:57:49,307 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 13:57:50,533 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 13:57:50,566 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 13:57:50,767 - Log -INFO - OrangeHRM
+2023-11-26 13:57:50,781 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 13:57:50,810 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 13:57:51,114 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 13:57:51,124 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 13:57:51,510 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 13:57:55,583 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 13:57:55,598 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 13:57:57,324 - Log -INFO - -- Select --
+2023-11-26 13:57:57,769 - Log -INFO - Login
+2023-11-26 13:59:04,220 - Log -INFO - Successfully closed the browser
+2023-11-26 13:59:37,003 - Log -INFO - Successfully launched the browser
+2023-11-26 13:59:40,466 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 13:59:41,499 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 13:59:41,510 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 13:59:41,644 - Log -INFO - OrangeHRM
+2023-11-26 13:59:41,659 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 13:59:41,705 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 13:59:41,901 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 13:59:41,912 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 13:59:42,231 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 14:00:07,883 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 14:00:07,916 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 14:00:23,257 - Log -INFO - -- Select --
+2023-11-26 14:00:23,442 - Log -INFO - Login
+2023-11-26 14:01:36,439 - Log -INFO - Successfully closed the browser
+2023-11-26 14:02:34,821 - Log -INFO - Successfully launched the browser
+2023-11-26 14:02:38,059 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 14:02:39,335 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 14:02:39,345 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 14:02:39,514 - Log -INFO - OrangeHRM
+2023-11-26 14:02:39,527 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 14:02:39,562 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 14:02:39,817 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-11-26 14:02:39,827 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-11-26 14:02:40,175 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 14:03:17,153 - Log -INFO - Alternative Login :
+-- Select --
+2023-11-26 14:03:17,181 - Log -INFO - OrangeHRM Login Page Cointain Alternate Login Text = Pass
+2023-11-26 14:03:24,649 - Log -INFO - -- Select --
+2023-11-26 14:03:24,854 - Log -INFO - Login
+2023-11-26 14:18:20,848 - Log -INFO - Successfully launched the browser
+2023-11-26 14:19:19,093 - Log -INFO - Successfully launched the browser
+2023-11-26 14:19:26,260 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 14:19:27,487 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 14:19:27,498 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 14:19:27,688 - Log -INFO - OrangeHRM
+2023-11-26 14:19:27,701 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 14:28:15,491 - Log -INFO - Successfully launched the browser
+2023-11-26 14:28:21,201 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 14:28:22,291 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 14:28:22,301 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 14:28:22,420 - Log -INFO - OrangeHRM
+2023-11-26 14:28:22,438 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 14:28:45,370 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 14:28:45,514 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/dashboard
+2023-11-26 14:28:45,606 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 14:28:45,775 - Log -INFO - OrangeHRM
+2023-11-26 14:28:45,825 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 14:49:16,262 - Log -INFO - Successfully launched the browser
+2023-11-26 14:49:22,683 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 14:49:23,987 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-11-26 14:49:23,998 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 14:49:24,164 - Log -INFO - OrangeHRM
+2023-11-26 14:49:24,175 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 14:49:44,364 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-11-26 14:49:44,435 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/dashboard
+2023-11-26 14:49:44,484 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2023-11-26 14:49:44,562 - Log -INFO - OrangeHRM
+2023-11-26 14:49:44,585 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2023-11-26 14:49:44,790 - Log -INFO - 
