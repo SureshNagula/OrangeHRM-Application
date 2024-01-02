@@ -18,7 +18,7 @@ public class Base_Test {
 	@BeforeTest
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver", "./newbrowser/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajalingam\\Desktop\\OrangeHRMApplication\\OrangeHRMApplication\\newbrowser\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		

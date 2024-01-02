@@ -1,0 +1,27 @@
+package com.XpathTest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import com.Base_Test.SalesForce_BaseTest;
+
+public class SalesForse_Click_Test extends SalesForce_BaseTest{
+	
+	
+	
+	
+	//<span class="nav-item-label--l1" slot="start">Products</span>
+	
+	//tagname[text()='textvalue']
+	
+	//span[text()='Products']
+	
+	@Test
+	public void sales() {
+	By loginProperty=By.xpath("//span[text()='Products']");
+	WebElement login=driver.findElement(loginProperty);
+	login.click();
+	}
+	
+}

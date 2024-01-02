@@ -4,9 +4,10 @@ public class NestedIf {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-  int var1=90;
-  int var2=80;
-  int var3=60;
+		
+    int var1=90;
+    int var2=80;
+    int var3=60;
   
   
   if(var1>var2);

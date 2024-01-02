@@ -1342,3 +1342,18 @@
 2023-11-23 09:41:49,503 - Log -INFO - Admin
 2023-11-23 09:41:50,045 - Log -INFO - Welcome Admin
 2023-11-23 09:41:50,057 - Log -INFO - Succesfully Navigated to OrangeHRM Application HomePage - PASS
+2023-12-04 12:09:34,346 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-12-04 12:10:37,111 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-12-04 12:11:43,040 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-12-04 12:12:20,718 - Log -INFO - Suresh
+2023-12-04 12:12:21,127 - Log -INFO - Suresh#1234
+2023-12-04 12:12:53,700 - Log -INFO - Admin
+2023-12-04 12:12:54,091 - Log -INFO - Welcome Admin
+2023-12-04 12:12:54,159 - Log -INFO - Succesfully Navigated to OrangeHRM Application HomePage - PASS
+2023-12-15 17:06:33,954 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-12-15 17:09:54,271 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2023-12-15 17:10:21,439 - Log -INFO - Suresh
+2023-12-15 17:10:21,871 - Log -INFO - Suresh#1234
+2023-12-15 17:10:49,979 - Log -INFO - Admin
+2023-12-15 17:10:50,327 - Log -INFO - Welcome Admin
+2023-12-15 17:10:50,340 - Log -INFO - Succesfully Navigated to OrangeHRM Application HomePage - PASS

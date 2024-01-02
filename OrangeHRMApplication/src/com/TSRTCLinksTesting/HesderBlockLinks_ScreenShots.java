@@ -56,7 +56,7 @@ public class HesderBlockLinks_ScreenShots {
 			// Performing a click Operation on the Element of the Header Block
 
 			String expectedCurrentPageUrl=tsrtc_HeaderBlockLinks.get(linksIndex).getAttribute("href");
-					System.out.println("The expected Current URL of The Current Page is ="+expectedCurrentPageUrl);
+		    System.out.println("The expected Current URL of The Current Page is ="+expectedCurrentPageUrl);
 			tsrtc_HeaderBlockLinks.get(linksIndex).click();
 		
 			File linksScreenShot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);	

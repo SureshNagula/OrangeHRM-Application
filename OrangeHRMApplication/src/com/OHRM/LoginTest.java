@@ -12,7 +12,7 @@ public class LoginTest {
 		ChromeDriver driver;
 		String applicationUrlAdress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/dashboard";
 		
-		System.setProperty("webdriver.chrome.driver", "./broserDriveFiles/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./newbrowser/chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		System.out.println(" ***** Successfully launched Chrome Browser ******* ");

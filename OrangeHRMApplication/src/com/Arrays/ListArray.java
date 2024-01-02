@@ -11,7 +11,7 @@ public class ListArray {
     
 		
         List<Object>arrayList1 = new ArrayList<>();
-        
+      
         arrayList1.add(10);
         arrayList1.add("selenium");
         arrayList1.add('A');

@@ -34,9 +34,6 @@ public class SingleDimensionArray {
 		}
 
 		
-
-		
-		
 		System.out.println(" ********** 2 *********** ");
 
 		for(int index=0;index<=3;index++)

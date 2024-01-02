@@ -18,9 +18,8 @@ public class OrangeHRMAddEmployee extends Base_Test {
 	
 	Excel_InPut_OutPut excel = new Excel_InPut_OutPut();
 	
-	
-	
 	Actions keyboard = new Actions(driver);
+	
 	
 	public OrangeHRMAddEmployee()
 	{

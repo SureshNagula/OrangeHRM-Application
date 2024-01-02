@@ -26,13 +26,13 @@ public class Login_Valid_Data_ExternalFileProperties  extends Base_Test{
 @Test(priority=1,description="logindatafrom excel file")
 	public void logintest() throws IOException 
 	{
-		FileInputStream testDataFile = new FileInputStream("./src/com/Excel_OrangeHRM/OrangeHRMExcel.xlsx");
+		FileInputStream testDataFile = new FileInputStream("C:\\Users\\rajalingam\\Desktop\\OrangeHRMApplication\\OrangeHRMApplication\\src\\com\\Excel_OrangeHRM\\OrangeHRMExcel.xlsx");
 		
 		XSSFWorkbook workbook = new XSSFWorkbook(testDataFile);
 		
 		XSSFSheet testDataSheet =workbook.getSheet("Sheet1");
 		
-		propertiesFile = new FileInputStream("./src/com/Config/OHRM.Properties");
+		propertiesFile = new FileInputStream("C:\\Users\\rajalingam\\Desktop\\OrangeHRMApplication\\OrangeHRMApplication\\src\\com\\Config\\OHRM.Properties");
 		properties = new Properties();
 		properties.load(propertiesFile);
 		
@@ -118,7 +118,7 @@ public class Login_Valid_Data_ExternalFileProperties  extends Base_Test{
 
 		}
 		
-		FileOutputStream testdataresult=new FileOutputStream("./src/com/Excel_OrangeHRM/OrangeHRMExcel.xlsx");
+		FileOutputStream testdataresult=new FileOutputStream("C:\\Users\\rajalingam\\Desktop\\OrangeHRMApplication\\OrangeHRMApplication\\src\\com\\Excel_OrangeHRM\\OrangeHRMExcel.xlsx");
 		
 		workbook.write(testdataresult);
 		

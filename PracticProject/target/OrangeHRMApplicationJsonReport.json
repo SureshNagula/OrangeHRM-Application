@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "RediffMail LogIn Testing",
+        "description": "",
+        "id": "rediffmail-login-functionality;rediffmail-login-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22583555100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Open Chrome browser in the System",
+            "match": {
+              "location": "UserDefinedMethods.user_Should_Open_Chrome_browser_in_the_System()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4911566300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enters RediffMail application URL Address",
+            "match": {
+              "location": "UserDefinedMethods.user_Enters_RediffMail_application_URL_Address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 338593400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Should be Navigated To RediffMail application Login Page",
+            "match": {
+              "location": "UserDefinedMethods.user_Should_be_Navigated_To_RediffMail_application_Login_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23858337100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should Enter Username and Password and Click on SignIn button",
+            "match": {
+              "location": "UserDefinedMethods.user_should_Enter_Username_and_Password_and_Click_on_SignIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2390741400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Should Close the \tRediffMail application along with the Browser",
+            "match": {
+              "location": "UserDefinedMethods.user_Should_Close_the_RediffMail_application_along_with_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "RediffMail LogIn Functionality",
+    "description": "",
+    "id": "rediffmail-login-functionality",
+    "keyword": "Feature",
+    "uri": "RediffMail.feature"
+  }
+]

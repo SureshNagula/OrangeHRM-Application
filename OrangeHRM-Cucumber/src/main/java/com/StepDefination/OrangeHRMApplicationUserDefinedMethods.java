@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import com.Utility.Hooks;
 import com.Utility.Log;
 
 import cucumber.api.java.en.Given;
@@ -19,7 +20,13 @@ public class OrangeHRMApplicationUserDefinedMethods {
 	WebElement welcomeadminlink;
 	public static WebDriver driver;
 	String applicationUrlAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/dashboard";
-	
+	/*
+	public OrangeHRMApplicationUserDefinedMethods(Hooks hook)
+	{
+		driver=Hooks.driver;
+		
+	}
+	*/
 @Given("^User Should Open Chrome Browser in The System$")
 public void user_Should_Open_Chrome_Browser_in_The_System() 
 {

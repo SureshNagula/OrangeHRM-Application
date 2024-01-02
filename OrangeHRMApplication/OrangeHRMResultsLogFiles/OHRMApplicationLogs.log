@@ -1333,3 +1333,18 @@
 [main] INFO Log - Admin
 [main] INFO Log - Welcome Admin
 [main] INFO Log - Succesfully Navigated to OrangeHRM Application HomePage - PASS
+[main] INFO Log - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+[main] INFO Log - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+[main] INFO Log - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+[main] INFO Log - Suresh
+[main] INFO Log - Suresh#1234
+[main] INFO Log - Admin
+[main] INFO Log - Welcome Admin
+[main] INFO Log - Succesfully Navigated to OrangeHRM Application HomePage - PASS
+[main] INFO Log - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+[main] INFO Log - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+[main] INFO Log - Suresh
+[main] INFO Log - Suresh#1234
+[main] INFO Log - Admin
+[main] INFO Log - Welcome Admin
+[main] INFO Log - Succesfully Navigated to OrangeHRM Application HomePage - PASS

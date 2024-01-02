@@ -13,21 +13,14 @@ public class IfElseIf {
 		 {
 			//true block
 			System.out.println(" var1 is greater than var2 and var3");
-			}
-		
-		
+		 }
 		
 		else
-			if(var2>var3)
-			{
-				System.out.println(" var2 value greater than var3");
+		if(var2>var3)
+		{
+			System.out.println(" var2 value greater than var3");
 				
-			}
+		}
 			
-		
-		
-		
-		
-		
 	}
 }

@@ -40,6 +40,7 @@ public class WebTable_AllCountryNames extends Base_Test_WebTable{
 		}
       
 		Log.info("|");
+		
 		}
 
 	}
