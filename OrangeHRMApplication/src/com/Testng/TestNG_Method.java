@@ -2,6 +2,7 @@ package com.Testng;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TestNG_Method {
@@ -11,7 +12,7 @@ public class TestNG_Method {
 	{
 	System.out.println(" Gmail Application LogIn Functionality Test Successfull ");
 	}
-
+ 
 	@Test(priority=2,description=" Gmail Application  InBOX Test")
 	public void gmailApplicationInBoxTest()
 	{

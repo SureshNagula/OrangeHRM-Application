@@ -1,0 +1,10 @@
+package practice;
+
+public class Ex {
+	
+	
+	static {
+		System.out.println("Suresh");
+	}
+
+}

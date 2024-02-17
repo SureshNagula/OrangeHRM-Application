@@ -1,0 +1,22 @@
+package practice;
+
+public class NewPractice {
+	
+	void disply(int x) {
+		x=x+100;
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		NewPractice obj = new NewPractice();
+		
+		int a=100;
+		System.out.println();
+		obj.disply(a);
+		System.out.println();
+	}
+}
+
+

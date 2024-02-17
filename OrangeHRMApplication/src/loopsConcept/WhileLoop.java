@@ -21,6 +21,20 @@ public class WhileLoop {
 			System.out.println(" loadrunner ");
 			index++;
 		}
+		
+		
+		//this statenement from youtube
+		
+		while(true) {
+			System.out.println("Infinity Loop");
+		}
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

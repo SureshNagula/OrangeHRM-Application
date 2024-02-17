@@ -6,8 +6,22 @@
       <class name="com.OrangeHRMApplicationTestCases.OrangeHRMAddEmployeeTest">
         <methods>
           <include name="firstNameFunctionalityTest"/>
-          <include name="logoutFunctionalityTest"/>
+          <include name="addEmployeeLinkFunctionalityTest"/>
+          <include name="loginclickfunctionalityTest"/>
+          <include name="OrangeHRMAddEmployeePageTitle"/>
+          <include name="teardown"/>
+          <include name="orangeHRMAddEmployeeLogoValidation"/>
           <include name="setup"/>
+          <include name="userNameFunctionalTest"/>
+          <include name="addEmployeeURLFunctionality"/>
+          <include name="afterLogoutLoginPanelTextFunctionalityTest"/>
+          <include name="welcomeAdmintextFunctionalityTest"/>
+          <include name="passwordfunctionalityTest"/>
+          <include name="pimLinkFunctionalityTest"/>
+          <include name="headerblocksFunctionality"/>
+          <include name="LoginpaneltextvalidationTest"/>
+          <include name="logoutFunctionalityTest"/>
+          <include name="addEmployeeTextFunctionalityTest"/>
           <include name="wecomeAdminFunctionalityTest"/>
         </methods>
       </class> <!-- com.OrangeHRMApplicationTestCases.OrangeHRMAddEmployeeTest -->

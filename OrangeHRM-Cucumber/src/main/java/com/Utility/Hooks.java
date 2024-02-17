@@ -8,10 +8,11 @@ import cucumber.api.java.Before;
 
 public class Hooks {
 	
+	
 
 public static WebDriver driver;
-
-@Before
+/*
+   @Before
 public static void setUp()
 {
 // Automating CHrome Browser
@@ -32,5 +33,5 @@ Log.info(" ********* Chrome Browser along with OrangeHRM Application Closed Succ
 
 }
 
-
+*/
 }

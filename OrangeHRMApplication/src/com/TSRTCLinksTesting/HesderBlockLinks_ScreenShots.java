@@ -14,28 +14,26 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-
 public class HesderBlockLinks_ScreenShots {
 	
-	WebDriver driver;
-	String applicationUrlAddress="https://www.tsrtconline.in/oprs-web/";
+	
+	    WebDriver driver;
+	    String applicationUrlAddress="https://www.tsrtconline.in/oprs-web/";
 	
 	
-	public void launchingBrowser()
-	{
-	
-		
-		System.setProperty("webdriver.chrome.driver", "./broserDriveFiles/chromedriver.exe");
-		driver = new ChromeDriver();
+	   public void launchingBrowser()
+	   {
+		System.setProperty("webdriver.chrome.driver", "./newbrowser/chromedriver.exe");
+		 driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-	}
+	   }
+	
 		public void navigatingurl()
 		{
 			driver.get(applicationUrlAddress);
 		}
 		
-		
-		public void findingheaderblock() throws IOException
+	    public void findingheaderblock() throws IOException
 		{
 			By tsrtc_HeaderBlockProperty=By.className("menu-wrap");
 			WebElement tsrtc_HeaderBlock=driver.findElement(tsrtc_HeaderBlockProperty);
@@ -94,11 +92,7 @@ public class HesderBlockLinks_ScreenShots {
 
 		}
 		
-		
 		}
-		
-		
-		
 		
 		
 		public static void main(String[] args) throws IOException {
@@ -109,25 +103,6 @@ public class HesderBlockLinks_ScreenShots {
 			helo.findingheaderblock();
 			
 			
-			
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	
-
 }

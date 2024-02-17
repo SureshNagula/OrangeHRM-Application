@@ -1,0 +1,38 @@
+package com.XpathTest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import com.Base_Test.DemoGuru_BaseTest;
+
+public class DemoGuru_Click_Test extends DemoGuru_BaseTest{
+	
+	
+	//<hgf-c360nav locale="in" search="true" show-region-selector="true" context-nav-enabled="false" hide-login="false" truly-hide-login="false" show-button-main="true" show-button-secondary="false" hide-contact="false" origin="https://wp.sfdcdigital.com/en-in/wp-json">
+  //  </hgf-c360nav>
+	
+	//<span class="nav-item-label--l1" slot="start">Products</span>
+	
+	//tagname[text()='textvalue']
+	
+	//span[text()='Products']
+	//hgf-c360nav[locale='in']
+	@Test
+	public void sales() throws InterruptedException {
+		
+	JavascriptExecutor js = (JavascriptExecutor)driver;
+	js.executeScript("window.scrollBy(0,10)");
+	Thread.sleep(5000);
+	js.executeScript("window.scrollTo(0,-2000)");
+	
+	By loginProperty=By.xpath("//select[@name='country']//child::option[5]");
+	System.out.println("hhhh");
+	WebElement log=driver.findElement(loginProperty);
+	log.click();
+	//SearchContext login=driver.findElement(By.cssSelector("hgf-c360nav[locale='in']"));
+	
+	}
+	
+}

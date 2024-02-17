@@ -33,7 +33,8 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
+						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
@@ -47,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Dec 20, 2023 10:39:53 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 12, 2024 10:18:15 PM</span>
 				</a>
 			</li>
 			<li>
@@ -82,6 +83,17 @@
 			<!-- test toggle -->
 
 			<!-- category toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button category-toggle' data-activates='category-toggle' data-constrainwidth='false' data-beloworigin='true' data-hover='true' href='#'>
+					<i class='material-icons'>local_offer</i> Category
+				</a>
+				<ul id='category-toggle' class='dropdown-content'>
+					<li><a href='#'>@smoketest</a></li>
+					<li><a href='#'>@ReTesting</a></li>
+					<li class='divider'></li>
+					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
+				</ul>
+			</div>
 			<!-- category toggle -->
 
 			<!-- clear filters -->
@@ -140,10 +152,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='57.143%'><span class='strong'>4</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>7</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='42.857%'>3</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -155,10 +167,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='36%'><span class='strong'>18</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='82%'><span class='strong'>41</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='14%'>7</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='50%'>25</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='6%'>3</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='12%'>6</span> others
 				</div>
 			</div>
 		</div>
@@ -175,12 +187,12 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>OrangeHRM Application Functiional Testing</span>
-						<span class='test-time'>Dec 20, 2023 10:39:54 AM</span>
+						<span class='test-time'>Feb 12, 2024 10:18:16 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='2' status='fail'>
-	<span class='duration right label'>0h 0m 55s+628ms</span>
+<div class='scenario node' test-id='2' status='pass'>
+	<span class='duration right label'>0h 0m 35s+352ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">OrangeHRM Application Login Page Valiudation</span>
@@ -194,55 +206,34 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='4' class='node when fail' status='fail'>
+		<li test-id='4' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When User Enters OrangeHRM Application URL Address</span>
-				<div class='pre'><pre>org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9d23920247a4642b1d94f28ae807c44c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)
-	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:45)
-	at ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:7)
-</pre></div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='5' class='node then skip' status='skip'>
+		<li test-id='5' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then User Should be Navigated To OrangeHRM Application Login WebPage</span>
-				<div class='pre'>skipped</div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='6' class='node then skip' status='skip'>
+		<li test-id='6' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then User Should Close the OrangeHRM Application along with the Browser</span>
-				<div class='pre'>skipped</div>
+				<div class='pre'>passed</div>
 			
 		</li>
 	</ul>
 </div>
 <div class='scenario node' test-id='7' status='fail'>
-	<span class='duration right label'>0h 0m 12s+315ms</span>
+	<span class='duration right label'>0h 1m 36s+32ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">OrangeHRM Login Functionality Test</span>
@@ -256,19 +247,44 @@ Session ID: 9d23920247a4642b1d94f28ae807c44c
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='9' class='node when fail' status='fail'>
+		<li test-id='9' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When User Enters OrangeHRM Application URL Address</span>
-				<div class='pre'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.109)
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='10' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then User Should be Navigated To OrangeHRM Application Login WebPage</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='11' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then User Should Enter UserName and Password and Click on Login button</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='12' class='node then fail' status='fail'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then User Should be Navigating to orangeHRM Home Page Application</span>
+				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Welcome Admin"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.54.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 06a41c07dced1a710ea5ce5571734cf6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af201af30361bfe282527a7f4ae2ef6b
+*** Element info: {Using=link text, value=Welcome Admin}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -279,35 +295,13 @@ Session ID: 06a41c07dced1a710ea5ce5571734cf6
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)
-	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:47)
-	at ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application(OrangeHRMApplicationUserDefinedMethods.java:256)
+	at ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:28)
 </pre></div>
-			
-		</li>
-		<li test-id='10' class='node then skip' status='skip'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then User Should be Navigated To OrangeHRM Application Login WebPage</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='11' class='node then skip' status='skip'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then User Should Enter UserName and Password and Click on Login button</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='12' class='node then skip' status='skip'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then User Should be Navigating to orangeHRM Home Page Application</span>
-				<div class='pre'>skipped</div>
 			
 		</li>
 		<li test-id='13' class='node then skip' status='skip'>
@@ -329,13 +323,16 @@ Session ID: 06a41c07dced1a710ea5ce5571734cf6
 	</ul>
 </div>
 <div class='scenariooutline node' test-id='15' status='fail'>
-	<span class='duration right label'>0h 4m 0s+29ms</span>
+	<span class='duration right label'>0h 4m 27s+323ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">OrangeHRM Application LoginFunctionality with Valid and Invalid Test data</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='16' class='node scenario fail' status='fail'>
+		<li test-id='16' class='node scenario pass' status='pass'>
+			<div class='category-list'>
+				<span class='category label white-text'>@smoketest</span>
+			</div>
 			
 			<b>Scenario</b>
 			
@@ -346,55 +343,36 @@ Session ID: 06a41c07dced1a710ea5ce5571734cf6
 						<span class="bdd-step-name">Given User Should Open Chrome Browser in The System</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='18' class='node when fail' status='fail'><b>When</b>
+					<li test-id='18' class='node when pass' status='pass'><b>When</b>
 						<span class="bdd-step-name">When User Enters OrangeHRM Application URL Address</span>
-							<div class='pre'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bbd240188b2f5ad51480900adf9dfd1b
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)
-	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:47)
-	at ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:40)
-</pre></div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='19' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='19' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User Should be Navigated To OrangeHRM Application Login WebPage</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='20' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='20' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User Should Enter "Suresh" and "Suresh#1234" and click on Login button</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='21' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='21' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User Should be Navigating to orangeHRM Home Page Application</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='22' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='22' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User should click on welcome admin and click on logout</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='23' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='23' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then user should close the OrangeHRM Application along with browser</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
 				</ul>
 		</li>
 		<li test-id='24' class='node scenario fail' status='fail'>
+			<div class='category-list'>
+				<span class='category label white-text'>@smoketest</span>
+			</div>
 			
 			<b>Scenario</b>
 			
@@ -420,13 +398,13 @@ Session ID: bbd240188b2f5ad51480900adf9dfd1b
 					<li test-id='29' class='node then fail' status='fail'><b>Then</b>
 						<span class="bdd-step-name">Then User Should be Navigating to orangeHRM Home Page Application</span>
 							<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Welcome Admin"}
-  (Session info: chrome=120.0.6099.109)
+  (Session info: chrome=121.0.6167.161)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.54.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54981}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b388aae79c5145deffdeaa76f9296723
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f77da48db8857a0482b43be8e4f5893
 *** Element info: {Using=link text, value=Welcome Admin}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -443,7 +421,7 @@ Session ID: b388aae79c5145deffdeaa76f9296723
 	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application(OrangeHRMApplicationUserDefinedMethods.java:256)
-	at ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:46)
+	at ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:48)
 </pre></div>
 					</li>
 					<li test-id='30' class='node then skip' status='skip'><b>Then</b>
@@ -457,6 +435,9 @@ Session ID: b388aae79c5145deffdeaa76f9296723
 				</ul>
 		</li>
 		<li test-id='32' class='node scenario fail' status='fail'>
+			<div class='category-list'>
+				<span class='category label white-text'>@smoketest</span>
+			</div>
 			
 			<b>Scenario</b>
 			
@@ -482,13 +463,13 @@ Session ID: b388aae79c5145deffdeaa76f9296723
 					<li test-id='37' class='node then fail' status='fail'><b>Then</b>
 						<span class="bdd-step-name">Then User Should be Navigating to orangeHRM Home Page Application</span>
 							<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Welcome Admin"}
-  (Session info: chrome=120.0.6099.109)
+  (Session info: chrome=121.0.6167.161)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.54.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1601784921b4c0177eaf09866dbc1968
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca7b24522f143cb1d31cbe65ea6fb374
 *** Element info: {Using=link text, value=Welcome Admin}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -505,7 +486,7 @@ Session ID: 1601784921b4c0177eaf09866dbc1968
 	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application(OrangeHRMApplicationUserDefinedMethods.java:256)
-	at ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:46)
+	at ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:48)
 </pre></div>
 					</li>
 					<li test-id='38' class='node then skip' status='skip'><b>Then</b>
@@ -518,7 +499,10 @@ Session ID: 1601784921b4c0177eaf09866dbc1968
 					</li>
 				</ul>
 		</li>
-		<li test-id='40' class='node scenario fail' status='fail'>
+		<li test-id='40' class='node scenario pass' status='pass'>
+			<div class='category-list'>
+				<span class='category label white-text'>@smoketest</span>
+			</div>
 			
 			<b>Scenario</b>
 			
@@ -549,44 +533,25 @@ Session ID: 1601784921b4c0177eaf09866dbc1968
 						<span class="bdd-step-name">Then User should click on welcome admin and click on logout</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='47' class='node then fail' status='fail'><b>Then</b>
+					<li test-id='47' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then user should close the OrangeHRM Application along with browser</span>
-							<div class='pre'><pre>org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4337ea36d125edd917a6d619ae11b30d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
-	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_should_close_the_OrangeHRM_Application_along_with_browser(OrangeHRMApplicationUserDefinedMethods.java:300)
-	at ✽.Then user should close the OrangeHRM Application along with browser(OrangeHRMApplicationTesting.feature:50)
-</pre></div>
+							<div class='pre'>passed</div>
 					</li>
 				</ul>
 		</li>
 	</ul>
 </div>
-<div class='scenariooutline node' test-id='48' status='fail'>
-	<span class='duration right label'>0h 2m 6s+688ms</span>
+<div class='scenariooutline node' test-id='48' status='pass'>
+	<span class='duration right label'>0h 1m 31s+594ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">OrangeHRM AddEmployee Test with Single Data</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='49' class='node scenario fail' status='fail'>
+		<li test-id='49' class='node scenario pass' status='pass'>
+			<div class='category-list'>
+				<span class='category label white-text'>@ReTesting</span>
+			</div>
 			
 			<b>Scenario</b>
 			
@@ -597,67 +562,45 @@ Session ID: 4337ea36d125edd917a6d619ae11b30d
 						<span class="bdd-step-name">Given User Should Open Chrome Browser in The System</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='51' class='node when fail' status='fail'><b>When</b>
+					<li test-id='51' class='node when pass' status='pass'><b>When</b>
 						<span class="bdd-step-name">When User Enters OrangeHRM Application URL Address</span>
-							<div class='pre'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a06509d88d7118fa4dc866cc8b05a974
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)
-	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:47)
-	at ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:70)
-</pre></div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='52' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='52' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User Should be Navigated To OrangeHRM Application Login WebPage</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='53' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='53' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User Should Enter UserName and Password and Click on Login button</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='54' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='54' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User Should be Navigating to orangeHRM Home Page Validation Test</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='55' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='55' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User should navigate PIM and Should Click on AddEmployee Functionality</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='56' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='56' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User Should Pass the Test Data Into "suresh" "suri" and "soorya" and Get Employee Id</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='57' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='57' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then Save The New Employee Details</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='58' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='58' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User Should be Navigating to orangeHRM Home Page Application</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='59' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='59' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User should click on welcome admin and click on logout</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='60' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='60' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then user should close the OrangeHRM Application along with browser</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
 				</ul>
 		</li>
@@ -690,6 +633,126 @@ Session ID: a06509d88d7118fa4dc866cc8b05a974
 
 </div>
 <!-- test view -->
+<div id='category-view' class='view hide'>
+
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+					<i class='material-icons'>search</i> Search
+				</a>
+				
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+				
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+	<div class='subview-left left'>
+		
+		<div class='view-summary'>
+			<h5>Categories</h3>
+			<ul id='category-collection' class='category-collection'>
+				
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@smoketest</span>
+						<span class='category-status right'>
+							<span class='label pass'>2</span>
+							<span class='label fail'>2</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 2</span>
+							<span class='label red lighten-1 white-text'>Failed: 2</span>
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Feb 12, 2024 10:20:28 PM</td>
+										<td class='linked' test-id='16'>OrangeHRM Application Functiional Testing.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Feb 12, 2024 10:21:19 PM</td>
+										<td class='linked' test-id='24'>OrangeHRM Application Functiional Testing.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data</td>
+										<td><span class='test-status fail'>fail</span></td>
+									</tr>
+									<tr>
+										<td>Feb 12, 2024 10:22:22 PM</td>
+										<td class='linked' test-id='32'>OrangeHRM Application Functiional Testing.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data</td>
+										<td><span class='test-status fail'>fail</span></td>
+									</tr>
+									<tr>
+										<td>Feb 12, 2024 10:23:51 PM</td>
+										<td class='linked' test-id='40'>OrangeHRM Application Functiional Testing.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@ReTesting</span>
+						<span class='category-status right'>
+							<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Feb 12, 2024 10:24:55 PM</td>
+										<td class='linked' test-id='49'>OrangeHRM Application Functiional Testing.OrangeHRM AddEmployee Test with Single Data.OrangeHRM AddEmployee Test with Single Data</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='category-name'></h5>
+		</div>
+	</div>
+</div>
 <!-- category view -->
 <div id='exception-view' class='view hide'>
 
@@ -718,81 +781,7 @@ Session ID: a06509d88d7118fa4dc866cc8b05a974
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.WebDriverException</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Dec 20, 2023 10:40:27 AM</td>
-                                                        <td class='linked' test-id='4'>OrangeHRM Application Functiional Testing.OrangeHRM Application Login Page Valiudation.When User Enters OrangeHRM Application URL Address</td>
-                                                        <td><pre><pre>org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9d23920247a4642b1d94f28ae807c44c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)
-	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:45)
-	at ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:7)
-</pre></pre></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Dec 20, 2023 10:45:03 AM</td>
-                                                        <td class='linked' test-id='47'>OrangeHRM Application Functiional Testing.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.Then user should close the OrangeHRM Application along with browser</td>
-                                                        <td><pre><pre>org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4337ea36d125edd917a6d619ae11b30d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
-	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_should_close_the_OrangeHRM_Application_along_with_browser(OrangeHRMApplicationUserDefinedMethods.java:300)
-	at ✽.Then user should close the OrangeHRM Application along with browser(OrangeHRMApplicationTesting.feature:50)
-</pre></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.NoSuchWindowException</span>
+                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>3</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -807,16 +796,17 @@ Session ID: 4337ea36d125edd917a6d619ae11b30d
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Dec 20, 2023 10:40:55 AM</td>
-                                                        <td class='linked' test-id='9'>OrangeHRM Application Functiional Testing.OrangeHRM Login Functionality Test.When User Enters OrangeHRM Application URL Address</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.109)
+                                                        <td>Feb 12, 2024 10:19:37 PM</td>
+                                                        <td class='linked' test-id='12'>OrangeHRM Application Functiional Testing.OrangeHRM Login Functionality Test.Then User Should be Navigating to orangeHRM Home Page Application</td>
+                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Welcome Admin"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.54.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 06a41c07dced1a710ea5ce5571734cf6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af201af30361bfe282527a7f4ae2ef6b
+*** Element info: {Using=link text, value=Welcome Admin}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -827,98 +817,25 @@ Session ID: 06a41c07dced1a710ea5ce5571734cf6
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)
-	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:47)
-	at ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application(OrangeHRMApplicationUserDefinedMethods.java:256)
+	at ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:28)
 </pre></pre></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Dec 20, 2023 10:41:10 AM</td>
-                                                        <td class='linked' test-id='18'>OrangeHRM Application Functiional Testing.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.When User Enters OrangeHRM Application URL Address</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bbd240188b2f5ad51480900adf9dfd1b
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)
-	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:47)
-	at ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:40)
-</pre></pre></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Dec 20, 2023 10:45:15 AM</td>
-                                                        <td class='linked' test-id='51'>OrangeHRM Application Functiional Testing.OrangeHRM AddEmployee Test with Single Data.OrangeHRM AddEmployee Test with Single Data.When User Enters OrangeHRM Application URL Address</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a06509d88d7118fa4dc866cc8b05a974
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)
-	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:47)
-	at ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:70)
-</pre></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Dec 20, 2023 10:41:52 AM</td>
+                                                        <td>Feb 12, 2024 10:21:32 PM</td>
                                                         <td class='linked' test-id='29'>OrangeHRM Application Functiional Testing.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.Then User Should be Navigating to orangeHRM Home Page Application</td>
                                                         <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Welcome Admin"}
-  (Session info: chrome=120.0.6099.109)
+  (Session info: chrome=121.0.6167.161)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.54.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54981}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b388aae79c5145deffdeaa76f9296723
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f77da48db8857a0482b43be8e4f5893
 *** Element info: {Using=link text, value=Welcome Admin}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -935,20 +852,20 @@ Session ID: b388aae79c5145deffdeaa76f9296723
 	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application(OrangeHRMApplicationUserDefinedMethods.java:256)
-	at ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:46)
+	at ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:48)
 </pre></pre></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Dec 20, 2023 10:42:58 AM</td>
+                                                        <td>Feb 12, 2024 10:23:01 PM</td>
                                                         <td class='linked' test-id='37'>OrangeHRM Application Functiional Testing.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.OrangeHRM Application LoginFunctionality with Valid and Invalid Test data.Then User Should be Navigating to orangeHRM Home Page Application</td>
                                                         <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Welcome Admin"}
-  (Session info: chrome=120.0.6099.109)
+  (Session info: chrome=121.0.6167.161)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.249.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'LAPTOP-R43TL4UE', ip: '192.168.54.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1601784921b4c0177eaf09866dbc1968
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\RAJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca7b24522f143cb1d31cbe65ea6fb374
 *** Element info: {Using=link text, value=Welcome Admin}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -965,7 +882,7 @@ Session ID: 1601784921b4c0177eaf09866dbc1968
 	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application(OrangeHRMApplicationUserDefinedMethods.java:256)
-	at ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:46)
+	at ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:48)
 </pre></pre></td>
                                                     </tr>
                                         </tbody>
@@ -1010,19 +927,52 @@ Session ID: 1601784921b4c0177eaf09866dbc1968
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 20, 2023 10:39:53 AM</div>
+					<div class='panel-lead'>Feb 12, 2024 10:18:15 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 20, 2023 10:47:11 AM</div>
+			 		<div class='panel-lead'>Feb 12, 2024 10:26:28 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>437,750ms</div>
+					<div class='panel-lead'>492,250ms</div>
+				</div>
+			</div>
+			<div class='col s6'>
+				<div class='card-panel dashboard-categories'>
+					<span class='right label cyan white-text'>Categories</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Passed</th>
+							<th>Failed</th>
+							<th>Others</th>
+							<th>Passed %</th>
+						</tr>
+						<tr>
+							<td>@smoketest</td>
+							<td>2</td>
+							<td>2</td>
+							<td>0</td>
+							<td>
+									50%
+							</td>
+						</tr>
+						<tr>
+							<td>@ReTesting</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 		</div>
@@ -1043,23 +993,23 @@ Session ID: 1601784921b4c0177eaf09866dbc1968
 				skipParent: 0,
 				exceptionsParent: 1,
 				
-				passChild: 0,
-				failChild: 7,
+				passChild: 4,
+				failChild: 3,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 7,
+				exceptionsChild: 3,
 				
-				passGrandChild: 18,
-				failGrandChild: 7,
+				passGrandChild: 41,
+				failGrandChild: 3,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 25,
+				skipGrandChild: 6,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 32,
+				exceptionsGrandChild: 9,
 			};
 		</script>
 		

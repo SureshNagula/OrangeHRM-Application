@@ -7,7 +7,13 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "line": 3,
+  "comments": [
+    {
+      "line": 3,
+      "value": "#Background: User Should Open Chrome Browser in The System"
+    }
+  ],
+  "line": 5,
   "name": "OrangeHRM Application Login Page Valiudation",
   "description": "",
   "id": "orangehrm-application-functiional-testing;orangehrm-application-login-page-valiudation",
@@ -15,22 +21,22 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
+  "line": 7,
   "name": "User Should Open Chrome Browser in The System",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "User Enters OrangeHRM Application URL Address",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
+  "line": 11,
   "name": "User Should be Navigated To OrangeHRM Application Login WebPage",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 11,
+  "line": 13,
   "name": "User Should Close the OrangeHRM Application along with the Browser",
   "keyword": "Then "
 });
@@ -38,31 +44,32 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Open_Chrome_Browser_in_The_System()"
 });
 formatter.result({
-  "duration": 30962147100,
+  "duration": 14108114900,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address()"
 });
 formatter.result({
-  "duration": 23608702600,
-  "error_message": "org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event\n  (failed to check if window was closed: disconnected: Unable to receive message from renderer)\n  (Session info: chrome\u003d120.0.6099.109)\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-R43TL4UE\u0027, ip: \u0027192.168.249.54\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\RAJALI~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9d23920247a4642b1d94f28ae807c44c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)\r\n\tat com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:45)\r\n\tat ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:7)\r\n",
-  "status": "failed"
+  "duration": 17894269200,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigated_To_OrangeHRM_Application_Login_WebPage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 569705400,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Close_the_OrangeHRM_Application_along_with_the_Browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1841185500,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 16,
+  "line": 18,
   "name": "OrangeHRM Login Functionality Test",
   "description": "",
   "id": "orangehrm-application-functiional-testing;orangehrm-login-functionality-test",
@@ -70,37 +77,37 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 18,
+  "line": 20,
   "name": "User Should Open Chrome Browser in The System",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 20,
+  "line": 22,
   "name": "User Enters OrangeHRM Application URL Address",
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
+  "line": 24,
   "name": "User Should be Navigated To OrangeHRM Application Login WebPage",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 24,
+  "line": 26,
   "name": "User Should Enter UserName and Password and Click on Login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 26,
+  "line": 28,
   "name": "User Should be Navigating to orangeHRM Home Page Application",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 28,
+  "line": 30,
   "name": "User should click on welcome admin and click on logout",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 30,
+  "line": 32,
   "name": "user should close the OrangeHRM Application along with browser",
   "keyword": "Then "
 });
@@ -108,34 +115,37 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Open_Chrome_Browser_in_The_System()"
 });
 formatter.result({
-  "duration": 4700014800,
+  "duration": 5039743800,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address()"
 });
 formatter.result({
-  "duration": 7499605000,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d120.0.6099.109)\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-R43TL4UE\u0027, ip: \u0027192.168.249.54\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\RAJALI~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 06a41c07dced1a710ea5ce5571734cf6\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)\r\n\tat com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:47)\r\n\tat ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:20)\r\n",
-  "status": "failed"
+  "duration": 5910404000,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigated_To_OrangeHRM_Application_Login_WebPage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 164437700,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Enter_UserName_and_Password_and_Click_on_Login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 34266845600,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 50380791700,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Welcome Admin\"}\n  (Session info: chrome\u003d121.0.6167.161)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-R43TL4UE\u0027, ip: \u0027192.168.54.54\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\RAJALI~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: af201af30361bfe282527a7f4ae2ef6b\n*** Element info: {Using\u003dlink text, value\u003dWelcome Admin}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application(OrangeHRMApplicationUserDefinedMethods.java:256)\r\n\tat ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:28)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_should_click_on_welcome_admin_and_click_on_logout()"
@@ -150,50 +160,56 @@ formatter.result({
   "status": "skipped"
 });
 formatter.scenarioOutline({
-  "line": 36,
+  "line": 38,
   "name": "OrangeHRM Application LoginFunctionality with Valid and Invalid Test data",
   "description": "",
   "id": "orangehrm-application-functiional-testing;orangehrm-application-loginfunctionality-with-valid-and-invalid-test-data",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 36,
+      "name": "@smoketest"
+    }
+  ]
 });
 formatter.step({
-  "line": 38,
+  "line": 40,
   "name": "User Should Open Chrome Browser in The System",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 40,
+  "line": 42,
   "name": "User Enters OrangeHRM Application URL Address",
   "keyword": "When "
 });
 formatter.step({
-  "line": 42,
+  "line": 44,
   "name": "User Should be Navigated To OrangeHRM Application Login WebPage",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 44,
+  "line": 46,
   "name": "User Should Enter \"\u003cUserName\u003e\" and \"\u003cPassword\u003e\" and click on Login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 46,
+  "line": 48,
   "name": "User Should be Navigating to orangeHRM Home Page Application",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 48,
+  "line": 50,
   "name": "User should click on welcome admin and click on logout",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 50,
+  "line": 52,
   "name": "user should close the OrangeHRM Application along with browser",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 53,
+  "line": 55,
   "name": "",
   "description": "",
   "id": "orangehrm-application-functiional-testing;orangehrm-application-loginfunctionality-with-valid-and-invalid-test-data;",
@@ -203,7 +219,7 @@ formatter.examples({
         "UserName",
         "Password"
       ],
-      "line": 55,
+      "line": 57,
       "id": "orangehrm-application-functiional-testing;orangehrm-application-loginfunctionality-with-valid-and-invalid-test-data;;1"
     },
     {
@@ -211,7 +227,7 @@ formatter.examples({
         "Suresh",
         "Suresh#1234"
       ],
-      "line": 56,
+      "line": 58,
       "id": "orangehrm-application-functiional-testing;orangehrm-application-loginfunctionality-with-valid-and-invalid-test-data;;2"
     },
     {
@@ -219,7 +235,7 @@ formatter.examples({
         "Surya",
         "Suresh#1234"
       ],
-      "line": 57,
+      "line": 59,
       "id": "orangehrm-application-functiional-testing;orangehrm-application-loginfunctionality-with-valid-and-invalid-test-data;;3"
     },
     {
@@ -227,7 +243,7 @@ formatter.examples({
         "Sure",
         "Suresh"
       ],
-      "line": 58,
+      "line": 60,
       "id": "orangehrm-application-functiional-testing;orangehrm-application-loginfunctionality-with-valid-and-invalid-test-data;;4"
     },
     {
@@ -235,37 +251,43 @@ formatter.examples({
         "Suresh",
         "Suresh#1234"
       ],
-      "line": 59,
+      "line": 61,
       "id": "orangehrm-application-functiional-testing;orangehrm-application-loginfunctionality-with-valid-and-invalid-test-data;;5"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 56,
+  "line": 58,
   "name": "OrangeHRM Application LoginFunctionality with Valid and Invalid Test data",
   "description": "",
   "id": "orangehrm-application-functiional-testing;orangehrm-application-loginfunctionality-with-valid-and-invalid-test-data;;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 36,
+      "name": "@smoketest"
+    }
+  ]
 });
 formatter.step({
-  "line": 38,
+  "line": 40,
   "name": "User Should Open Chrome Browser in The System",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 40,
+  "line": 42,
   "name": "User Enters OrangeHRM Application URL Address",
   "keyword": "When "
 });
 formatter.step({
-  "line": 42,
+  "line": 44,
   "name": "User Should be Navigated To OrangeHRM Application Login WebPage",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 44,
+  "line": 46,
   "name": "User Should Enter \"Suresh\" and \"Suresh#1234\" and click on Login button",
   "matchedColumns": [
     0,
@@ -274,17 +296,17 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 46,
+  "line": 48,
   "name": "User Should be Navigating to orangeHRM Home Page Application",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 48,
+  "line": 50,
   "name": "User should click on welcome admin and click on logout",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 50,
+  "line": 52,
   "name": "user should close the OrangeHRM Application along with browser",
   "keyword": "Then "
 });
@@ -292,22 +314,22 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Open_Chrome_Browser_in_The_System()"
 });
 formatter.result({
-  "duration": 7320364200,
+  "duration": 5238912500,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address()"
 });
 formatter.result({
-  "duration": 3846341000,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d120.0.6099.109)\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-R43TL4UE\u0027, ip: \u0027192.168.249.54\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\RAJALI~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: bbd240188b2f5ad51480900adf9dfd1b\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)\r\n\tat com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:47)\r\n\tat ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:40)\r\n",
-  "status": "failed"
+  "duration": 6057028900,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigated_To_OrangeHRM_Application_Login_WebPage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 189197400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -323,51 +345,61 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Enter_and_and_click_on_Login_button(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 26715336700,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 633257600,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_should_click_on_welcome_admin_and_click_on_logout()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 10569882100,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_should_close_the_OrangeHRM_Application_along_with_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1247550900,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 57,
+  "line": 59,
   "name": "OrangeHRM Application LoginFunctionality with Valid and Invalid Test data",
   "description": "",
   "id": "orangehrm-application-functiional-testing;orangehrm-application-loginfunctionality-with-valid-and-invalid-test-data;;3",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 36,
+      "name": "@smoketest"
+    }
+  ]
 });
 formatter.step({
-  "line": 38,
+  "line": 40,
   "name": "User Should Open Chrome Browser in The System",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 40,
+  "line": 42,
   "name": "User Enters OrangeHRM Application URL Address",
   "keyword": "When "
 });
 formatter.step({
-  "line": 42,
+  "line": 44,
   "name": "User Should be Navigated To OrangeHRM Application Login WebPage",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 44,
+  "line": 46,
   "name": "User Should Enter \"Surya\" and \"Suresh#1234\" and click on Login button",
   "matchedColumns": [
     0,
@@ -376,17 +408,17 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 46,
+  "line": 48,
   "name": "User Should be Navigating to orangeHRM Home Page Application",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 48,
+  "line": 50,
   "name": "User should click on welcome admin and click on logout",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 50,
+  "line": 52,
   "name": "user should close the OrangeHRM Application along with browser",
   "keyword": "Then "
 });
@@ -394,21 +426,21 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Open_Chrome_Browser_in_The_System()"
 });
 formatter.result({
-  "duration": 6533582800,
+  "duration": 6086386700,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address()"
 });
 formatter.result({
-  "duration": 24529298300,
+  "duration": 4613863200,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigated_To_OrangeHRM_Application_Login_WebPage()"
 });
 formatter.result({
-  "duration": 708279100,
+  "duration": 159911000,
   "status": "passed"
 });
 formatter.match({
@@ -425,15 +457,15 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Enter_and_and_click_on_Login_button(String,String)"
 });
 formatter.result({
-  "duration": 5535293700,
+  "duration": 2731345900,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application()"
 });
 formatter.result({
-  "duration": 50334268800,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Welcome Admin\"}\n  (Session info: chrome\u003d120.0.6099.109)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-R43TL4UE\u0027, ip: \u0027192.168.249.54\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\RAJALI~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54981}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b388aae79c5145deffdeaa76f9296723\n*** Element info: {Using\u003dlink text, value\u003dWelcome Admin}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application(OrangeHRMApplicationUserDefinedMethods.java:256)\r\n\tat ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:46)\r\n",
+  "duration": 50074561100,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Welcome Admin\"}\n  (Session info: chrome\u003d121.0.6167.161)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-R43TL4UE\u0027, ip: \u0027192.168.54.54\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\RAJALI~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9f77da48db8857a0482b43be8e4f5893\n*** Element info: {Using\u003dlink text, value\u003dWelcome Admin}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application(OrangeHRMApplicationUserDefinedMethods.java:256)\r\n\tat ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:48)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -449,30 +481,36 @@ formatter.result({
   "status": "skipped"
 });
 formatter.scenario({
-  "line": 58,
+  "line": 60,
   "name": "OrangeHRM Application LoginFunctionality with Valid and Invalid Test data",
   "description": "",
   "id": "orangehrm-application-functiional-testing;orangehrm-application-loginfunctionality-with-valid-and-invalid-test-data;;4",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 36,
+      "name": "@smoketest"
+    }
+  ]
 });
 formatter.step({
-  "line": 38,
+  "line": 40,
   "name": "User Should Open Chrome Browser in The System",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 40,
+  "line": 42,
   "name": "User Enters OrangeHRM Application URL Address",
   "keyword": "When "
 });
 formatter.step({
-  "line": 42,
+  "line": 44,
   "name": "User Should be Navigated To OrangeHRM Application Login WebPage",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 44,
+  "line": 46,
   "name": "User Should Enter \"Sure\" and \"Suresh\" and click on Login button",
   "matchedColumns": [
     0,
@@ -481,17 +519,17 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 46,
+  "line": 48,
   "name": "User Should be Navigating to orangeHRM Home Page Application",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 48,
+  "line": 50,
   "name": "User should click on welcome admin and click on logout",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 50,
+  "line": 52,
   "name": "user should close the OrangeHRM Application along with browser",
   "keyword": "Then "
 });
@@ -499,21 +537,21 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Open_Chrome_Browser_in_The_System()"
 });
 formatter.result({
-  "duration": 3993285100,
+  "duration": 8246880400,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address()"
 });
 formatter.result({
-  "duration": 8394383000,
+  "duration": 14756873000,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigated_To_OrangeHRM_Application_Login_WebPage()"
 });
 formatter.result({
-  "duration": 160491200,
+  "duration": 159335000,
   "status": "passed"
 });
 formatter.match({
@@ -530,15 +568,15 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Enter_and_and_click_on_Login_button(String,String)"
 });
 formatter.result({
-  "duration": 3256801800,
+  "duration": 15372634000,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application()"
 });
 formatter.result({
-  "duration": 50071333100,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Welcome Admin\"}\n  (Session info: chrome\u003d120.0.6099.109)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-R43TL4UE\u0027, ip: \u0027192.168.249.54\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\RAJALI~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1601784921b4c0177eaf09866dbc1968\n*** Element info: {Using\u003dlink text, value\u003dWelcome Admin}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application(OrangeHRMApplicationUserDefinedMethods.java:256)\r\n\tat ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:46)\r\n",
+  "duration": 50171899600,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Welcome Admin\"}\n  (Session info: chrome\u003d121.0.6167.161)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-R43TL4UE\u0027, ip: \u0027192.168.54.54\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\RAJALI~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ca7b24522f143cb1d31cbe65ea6fb374\n*** Element info: {Using\u003dlink text, value\u003dWelcome Admin}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application(OrangeHRMApplicationUserDefinedMethods.java:256)\r\n\tat ✽.Then User Should be Navigating to orangeHRM Home Page Application(OrangeHRMApplicationTesting.feature:48)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -554,30 +592,36 @@ formatter.result({
   "status": "skipped"
 });
 formatter.scenario({
-  "line": 59,
+  "line": 61,
   "name": "OrangeHRM Application LoginFunctionality with Valid and Invalid Test data",
   "description": "",
   "id": "orangehrm-application-functiional-testing;orangehrm-application-loginfunctionality-with-valid-and-invalid-test-data;;5",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 36,
+      "name": "@smoketest"
+    }
+  ]
 });
 formatter.step({
-  "line": 38,
+  "line": 40,
   "name": "User Should Open Chrome Browser in The System",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 40,
+  "line": 42,
   "name": "User Enters OrangeHRM Application URL Address",
   "keyword": "When "
 });
 formatter.step({
-  "line": 42,
+  "line": 44,
   "name": "User Should be Navigated To OrangeHRM Application Login WebPage",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 44,
+  "line": 46,
   "name": "User Should Enter \"Suresh\" and \"Suresh#1234\" and click on Login button",
   "matchedColumns": [
     0,
@@ -586,17 +630,17 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 46,
+  "line": 48,
   "name": "User Should be Navigating to orangeHRM Home Page Application",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 48,
+  "line": 50,
   "name": "User should click on welcome admin and click on logout",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 50,
+  "line": 52,
   "name": "user should close the OrangeHRM Application along with browser",
   "keyword": "Then "
 });
@@ -604,21 +648,21 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Open_Chrome_Browser_in_The_System()"
 });
 formatter.result({
-  "duration": 8749127700,
+  "duration": 13101912500,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address()"
 });
 formatter.result({
-  "duration": 12919420500,
+  "duration": 22729759300,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigated_To_OrangeHRM_Application_Login_WebPage()"
 });
 formatter.result({
-  "duration": 201551100,
+  "duration": 978610600,
   "status": "passed"
 });
 formatter.match({
@@ -635,102 +679,101 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Enter_and_and_click_on_Login_button(String,String)"
 });
 formatter.result({
-  "duration": 34482563600,
+  "duration": 20894890600,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application()"
 });
 formatter.result({
-  "duration": 4351999200,
+  "duration": 2199432000,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_should_click_on_welcome_admin_and_click_on_logout()"
 });
 formatter.result({
-  "duration": 13795882200,
+  "duration": 2712436500,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_should_close_the_OrangeHRM_Application_along_with_browser()"
 });
 formatter.result({
-  "duration": 19043800,
-  "error_message": "org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome\u003d120.0.6099.109)\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-R43TL4UE\u0027, ip: \u0027192.168.249.54\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\RAJALI~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4337ea36d125edd917a6d619ae11b30d\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)\r\n\tat com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_should_close_the_OrangeHRM_Application_along_with_browser(OrangeHRMApplicationUserDefinedMethods.java:300)\r\n\tat ✽.Then user should close the OrangeHRM Application along with browser(OrangeHRMApplicationTesting.feature:50)\r\n",
-  "status": "failed"
+  "duration": 1259072900,
+  "status": "passed"
 });
 formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 64,
-      "value": "#@ReTesting"
-    }
-  ],
-  "line": 66,
+  "line": 68,
   "name": "OrangeHRM AddEmployee Test with Single Data",
   "description": "",
   "id": "orangehrm-application-functiional-testing;orangehrm-addemployee-test-with-single-data",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 66,
+      "name": "@ReTesting"
+    }
+  ]
 });
 formatter.step({
-  "line": 68,
+  "line": 70,
   "name": "User Should Open Chrome Browser in The System",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 70,
+  "line": 72,
   "name": "User Enters OrangeHRM Application URL Address",
   "keyword": "When "
 });
 formatter.step({
-  "line": 72,
+  "line": 74,
   "name": "User Should be Navigated To OrangeHRM Application Login WebPage",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 74,
+  "line": 76,
   "name": "User Should Enter UserName and Password and Click on Login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 76,
+  "line": 78,
   "name": "User Should be Navigating to orangeHRM Home Page Validation Test",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 78,
+  "line": 80,
   "name": "User should navigate PIM and Should Click on AddEmployee Functionality",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 80,
+  "line": 82,
   "name": "User Should Pass the Test Data Into \"\u003cfirstName\u003e\" \"\u003cmiddleName\u003e\" and \"\u003clastName\u003e\" and Get Employee Id",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 82,
+  "line": 84,
   "name": "Save The New Employee Details",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 84,
+  "line": 86,
   "name": "User Should be Navigating to orangeHRM Home Page Application",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 86,
+  "line": 88,
   "name": "User should click on welcome admin and click on logout",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 88,
+  "line": 90,
   "name": "user should close the OrangeHRM Application along with browser",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 90,
+  "line": 92,
   "name": "",
   "description": "",
   "id": "orangehrm-application-functiional-testing;orangehrm-addemployee-test-with-single-data;",
@@ -741,7 +784,7 @@ formatter.examples({
         "middleName",
         "lastName"
       ],
-      "line": 92,
+      "line": 94,
       "id": "orangehrm-application-functiional-testing;orangehrm-addemployee-test-with-single-data;;1"
     },
     {
@@ -750,52 +793,58 @@ formatter.examples({
         "suri",
         "soorya"
       ],
-      "line": 93,
+      "line": 95,
       "id": "orangehrm-application-functiional-testing;orangehrm-addemployee-test-with-single-data;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 93,
+  "line": 95,
   "name": "OrangeHRM AddEmployee Test with Single Data",
   "description": "",
   "id": "orangehrm-application-functiional-testing;orangehrm-addemployee-test-with-single-data;;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 66,
+      "name": "@ReTesting"
+    }
+  ]
 });
 formatter.step({
-  "line": 68,
+  "line": 70,
   "name": "User Should Open Chrome Browser in The System",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 70,
+  "line": 72,
   "name": "User Enters OrangeHRM Application URL Address",
   "keyword": "When "
 });
 formatter.step({
-  "line": 72,
+  "line": 74,
   "name": "User Should be Navigated To OrangeHRM Application Login WebPage",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 74,
+  "line": 76,
   "name": "User Should Enter UserName and Password and Click on Login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 76,
+  "line": 78,
   "name": "User Should be Navigating to orangeHRM Home Page Validation Test",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 78,
+  "line": 80,
   "name": "User should navigate PIM and Should Click on AddEmployee Functionality",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 80,
+  "line": 82,
   "name": "User Should Pass the Test Data Into \"suresh\" \"suri\" and \"soorya\" and Get Employee Id",
   "matchedColumns": [
     0,
@@ -805,22 +854,22 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 82,
+  "line": 84,
   "name": "Save The New Employee Details",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 84,
+  "line": 86,
   "name": "User Should be Navigating to orangeHRM Home Page Application",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 86,
+  "line": 88,
   "name": "User should click on welcome admin and click on logout",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 88,
+  "line": 90,
   "name": "user should close the OrangeHRM Application along with browser",
   "keyword": "Then "
 });
@@ -828,40 +877,43 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Open_Chrome_Browser_in_The_System()"
 });
 formatter.result({
-  "duration": 12191054500,
+  "duration": 6719766300,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address()"
 });
 formatter.result({
-  "duration": 114360306300,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d120.0.6099.109)\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-R43TL4UE\u0027, ip: \u0027192.168.249.54\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\RAJALI~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a06509d88d7118fa4dc866cc8b05a974\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)\r\n\tat com.StepDefination.OrangeHRMApplicationUserDefinedMethods.user_Enters_OrangeHRM_Application_URL_Address(OrangeHRMApplicationUserDefinedMethods.java:47)\r\n\tat ✽.When User Enters OrangeHRM Application URL Address(OrangeHRMApplicationTesting.feature:70)\r\n",
-  "status": "failed"
+  "duration": 6899103300,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigated_To_OrangeHRM_Application_Login_WebPage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 154449800,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Enter_UserName_and_Password_and_Click_on_Login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6215092600,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Validation_Test()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 408245300,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_should_navigate_PIM_and_Should_Click_on_AddEmployee_Functionality()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 12910819200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -881,30 +933,35 @@ formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_Pass_the_Test_Data_Into_and_and_Get_Employee_Id(String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 50610026800,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.save_The_New_Employee_Details()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3261436000,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_Should_be_Navigating_to_orangeHRM_Home_Page_Application()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 449181600,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_should_click_on_welcome_admin_and_click_on_logout()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2949230300,
+  "status": "passed"
 });
 formatter.match({
   "location": "OrangeHRMApplicationUserDefinedMethods.user_should_close_the_OrangeHRM_Application_along_with_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 930425200,
+  "status": "passed"
 });
 });

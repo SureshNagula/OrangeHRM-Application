@@ -1,0 +1,37 @@
+package com.Utility;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+
+public class Hooks {
+	/*
+	
+
+public static WebDriver driver;
+
+   @Before
+public static void setUp()
+{
+// Automating CHrome Browser
+System.setProperty("webdriver.chrome.driver", "./newbrowser/chromedriver.exe");
+driver = new ChromeDriver();
+// System.out.println(" ***** Successfully launched Chrome Browser ******* ");
+Log.info(" ***** Successfully launched Chrome Browser ******* ");
+
+}
+
+@After
+public static void tearDown()
+{
+driver.quit();
+// System.out.println(" ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****");
+
+Log.info(" ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****");
+
+}
+
+*/
+}

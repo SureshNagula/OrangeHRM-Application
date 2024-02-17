@@ -523,3 +523,68 @@
 2023-12-20 12:12:53,760 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
 2023-12-20 12:12:55,687 - Log -INFO -  ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****
 2023-12-20 12:15:34,324 - Log -INFO -  ***** Successfully launched Chrome Browser ******* 
+2024-02-12 22:02:44,378 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:03:17,655 - Log -INFO - Successfull Navigategint to Application
+2024-02-12 22:04:19,736 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:04:56,616 - Log -INFO - Successfull Navigategint to Application
+2024-02-12 22:05:56,107 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:06:34,076 - Log -INFO - Successfull Navigategint to Application
+2024-02-12 22:06:37,867 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:06:49,099 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:07:28,932 - Log -INFO - Successfull Navigategint to Application
+2024-02-12 22:07:37,085 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:07:40,142 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:07:40,151 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2024-02-12 22:08:23,431 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2024-02-12 22:08:48,216 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:18:31,629 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:18:49,231 - Log -INFO - Successfull Navigategint to Application
+2024-02-12 22:18:50,219 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:18:50,372 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:18:50,384 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2024-02-12 22:18:52,231 - Log -INFO - Successfully Closed The Browser
+2024-02-12 22:18:57,304 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:19:02,662 - Log -INFO - Successfull Navigategint to Application
+2024-02-12 22:19:03,296 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:19:03,382 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:19:03,393 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2024-02-12 22:19:37,710 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2024-02-12 22:20:33,698 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:20:39,358 - Log -INFO - Successfull Navigategint to Application
+2024-02-12 22:20:39,878 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:20:39,967 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:20:39,998 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2024-02-12 22:21:06,772 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2024-02-12 22:21:07,044 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2024-02-12 22:21:07,058 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2024-02-12 22:21:25,324 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:21:29,419 - Log -INFO - Successfull Navigategint to Application
+2024-02-12 22:21:30,026 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:21:30,111 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:21:30,131 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2024-02-12 22:21:32,898 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2024-02-12 22:22:31,255 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:22:45,664 - Log -INFO - Successfull Navigategint to Application
+2024-02-12 22:22:46,081 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:22:46,159 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:22:46,176 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2024-02-12 22:23:01,576 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2024-02-12 22:24:04,878 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:24:27,273 - Log -INFO - Successfull Navigategint to Application
+2024-02-12 22:24:27,730 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:24:28,375 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:24:28,608 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2024-02-12 22:24:49,526 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2024-02-12 22:24:49,929 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2024-02-12 22:24:50,113 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2024-02-12 22:25:02,448 - Log -INFO -  Successfully launched Chrome Browser 
+2024-02-12 22:25:09,058 - Log -INFO - Successfull Navigategint to Application
+2024-02-12 22:25:09,416 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:25:09,498 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-02-12 22:25:09,507 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2024-02-12 22:25:15,752 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2024-02-12 22:25:16,144 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2024-02-12 22:25:16,152 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+2024-02-12 22:26:22,972 - Log -INFO - The Expected Name of WelcomeAdmin Text is =Admin
+2024-02-12 22:26:23,142 - Log -INFO - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+2024-02-12 22:26:23,158 - Log -INFO - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass

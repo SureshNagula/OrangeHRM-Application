@@ -4,19 +4,18 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 public class SalesForce_BaseTest {
-
+	
 
 	 public static WebDriver driver;
-	String applicationurladdress="https://www.salesforce.com/in/?ir=1";
+	String applicationurladdress="https://www.salesforce.com/in/form/signup/freetrial-sales/?d=topnav2-btn-ft";
 	
 	@BeforeTest
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver", "./browserfiles/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./newchromedriver/chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		
@@ -31,14 +30,6 @@ public class SalesForce_BaseTest {
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.MINUTES);
 		
 	}
-	
-	/*
-@AfterTest
-	public void teardown()
-	{
-	driver.quit();	
-	}
 
-*/
-	
+
 }

@@ -1,5 +1,7 @@
 Feature: OrangeHRM Application Functiional Testing
 
+#Background: User Should Open Chrome Browser in The System
+
 Scenario: OrangeHRM Application Login Page Valiudation
 
 Given User Should Open Chrome Browser in The System
@@ -31,7 +33,7 @@ Then user should close the OrangeHRM Application along with browser
 
 
 
-
+@smoketest
 
 Scenario Outline: OrangeHRM Application LoginFunctionality with Valid and Invalid Test data
 

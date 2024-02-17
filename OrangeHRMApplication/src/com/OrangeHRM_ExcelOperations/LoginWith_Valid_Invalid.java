@@ -21,21 +21,22 @@ public class LoginWith_Valid_Invalid {
 	
 public static void main(String[] args) throws IOException {
 	
-	
-	
 
 	WebDriver driver;
 	
 	String applicationUrlAddress= "http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
 	
-	System.setProperty("webdriver.chrome.driver", "./broserDriveFiles/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "./newbrowser/chromedriver.exe");
 	
 	driver = new ChromeDriver();
 	
 	driver.get(applicationUrlAddress);
 	
-	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 	
+	driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+	
+	driver.manage().window().maximize();
 
 	FileInputStream testDataFile = new FileInputStream("./src/com/Excel_OrangeHRM/OrangeHRMExcel.xlsx");
 	
@@ -62,7 +63,6 @@ public static void main(String[] args) throws IOException {
 	
 	userName.sendKeys(userNameTestData);
 	 
-	
 	
 	Row testDataRowpassword=testDataSheet.getRow(rowindex);
 	
@@ -136,8 +136,6 @@ public static void main(String[] args) throws IOException {
 	}
 	}
 	
-	
-	
 	driver.quit();
 	
 	
@@ -146,20 +144,3 @@ public static void main(String[] args) throws IOException {
 
 }
 	
-
-	
-	
-	
-
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-

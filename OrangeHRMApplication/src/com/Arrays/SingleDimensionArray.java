@@ -20,6 +20,8 @@ public class SingleDimensionArray {
 		
 		//Instead of printing Print 4 time we are use for loop concept
 		
+	      min(array1);
+		
 		for(int Index=0;Index<4;Index++)
 		{
 			System.out.println(array1[0]);
@@ -49,12 +51,21 @@ public class SingleDimensionArray {
 		System.out.println(array1[index]);
 		}
 
-
-		
-		
-		
-		
+ 	
 		
 	}
 
+	//this problem taken from youtube video
+	//how to get minimum value from arrays
+	
+	static void min(int arr[]) {
+		int min=arr[0];
+		for(int i=1;i<arr.length;i++) {
+			if(min>arr[i])
+				min  = arr[i];
+		}
+		System.out.println(min);
+		}
+	
+	
 }

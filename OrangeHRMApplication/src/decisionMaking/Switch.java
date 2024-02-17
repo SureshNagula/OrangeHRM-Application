@@ -5,14 +5,14 @@ public class Switch {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	int weekday=1;
+	String weekday="monday";
 	
 	switch(weekday)
 	{
-	case 1:
-		System.out.println("Monday");
+	case "monday":
+		System.out.println(1);
 		break;
-		
+	/*	
 	case 2:
 		System.out.println("Tuesday");
 		break;
@@ -32,7 +32,7 @@ public class Switch {
 	case 6:
 		System.out.println("Saturday");
 		break;
-		
+		*/
 		default:
 			System.out.println("Non of the above is not correct");
 			

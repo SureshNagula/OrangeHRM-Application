@@ -10,8 +10,8 @@ public class ObjectArray {
        
        array1[0]=10;
        array1[1]="Webdriver";
-    	array1[2]='A';	   
-    	array1[3]=10.9288;	   
+       array1[2]='A';	   
+       array1[3]=10.9288;	   
     	/*
     	System.out.println(array1[0]);
     	System.out.println(array1[1]);

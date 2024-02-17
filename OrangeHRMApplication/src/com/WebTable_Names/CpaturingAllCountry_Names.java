@@ -51,14 +51,14 @@ public class CpaturingAllCountry_Names {
 		///html/body/div[5]/section[1]/div/section/div[1]
 		
 		
-		
+		///html/body/div[5]/section[1]/div/section
 		
 		By webtableproperty=By.xpath("html/body/div[5]/section[1]/div");
 		WebElement webtabless=driver.findElement(webtableproperty);
 		
 		By testdataofrow=By.tagName("tr");
 		List<WebElement>webtable=webtabless.findElements(testdataofrow);
-	
+		int tablesize=webtable.size();
 		
 		for(int rowindex=1;rowindex<=webtable.size();rowindex++)
 		{

@@ -17,11 +17,11 @@ public class MathodExample4 {
 	
 	m4.division();
 	
-System.out.println("division metho of method example4");
+    System.out.println("division metho of method example4");
 
-MethodExample2 m2 = new MethodExample2();
-m2.addition();
-System.out.println("adition metho of method example2");
+     MethodExample2 m2 = new MethodExample2();
+     m2.addition();
+     System.out.println("adition metho of method example2");
 	}
 	
 

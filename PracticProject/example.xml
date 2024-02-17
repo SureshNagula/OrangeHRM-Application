@@ -1,0 +1,14 @@
+<Suite name ="OHRM"  parallel="nhsh">
+
+
+<test name = "Testing">
+<classes>
+<class name="sj"> 
+
+</class>
+</classes>
+
+</test>
+
+
+</Suite>

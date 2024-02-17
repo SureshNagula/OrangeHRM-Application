@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "OrangeHRMApplication",
                            glue = "com.StepDefination",monochrome = true,
-                         dryRun = true,
-                        //   tags="@ReTesting",
+                        // dryRun = true,
+                           //tags="@ReTesting",
                         		   plugin = { "pretty",
                         				   "html:target/OrangeHRMApplicationReports",
                         				   "json:target/OrangeHRMApplicationJsonReport.json",
@@ -21,4 +21,4 @@ public class TestRunner {
 
 }
 
-
+ 

@@ -35,12 +35,6 @@ public class Excel_WriteOperation {
 		
 		
 		
-		
-		
-		
-		
-		
-		
 	}
 
 }

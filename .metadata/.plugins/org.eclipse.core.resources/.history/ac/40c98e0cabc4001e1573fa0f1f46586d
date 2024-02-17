@@ -1,0 +1,39 @@
+package practice;
+
+
+
+public class Super2 extends Super1 {
+
+	String colour="Blue";
+	/*
+	void eating() {
+		System.out.println("child Eating");
+	}
+	
+	void bank() {
+		System.out.println("bank Eating");
+	}
+	*/
+	 void hh() {
+		// System.out.println(super.colour);
+		 System.out.println(colour);
+		// eating();
+		// bank();
+		// super.eating();
+		 
+	 }
+	
+	
+	public static void main(String[] args) {
+		
+		Super2 obj = new Super2();
+		obj.hh();
+		System.out.println(obj.colour);
+		
+		
+	}
+	
+	
+	
+	
+}

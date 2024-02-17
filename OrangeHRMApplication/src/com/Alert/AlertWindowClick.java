@@ -29,6 +29,7 @@ public class AlertWindowClick {
 	}
 	
 	public void popupwindoclick() {
+		
 		Alert alertwindow=driver.switchTo().alert();
 		
 		String expectedalerttext="please select start place.";

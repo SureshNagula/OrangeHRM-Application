@@ -21,7 +21,7 @@ public class MethodExample5 {
 		
 	MathodExample4 m4 = new MathodExample4();
 	//private maethod not allowed into another class
-	
+
 	}
 	
 	

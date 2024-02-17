@@ -523,3 +523,68 @@
 [main] INFO Log - The Expected Name of WelcomeAdmin Text is =Admin
 [main] INFO Log -  ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****
 [main] INFO Log -  ***** Successfully launched Chrome Browser ******* 
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log - Successfull Navigategint to Application
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log - Successfull Navigategint to Application
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log - Successfull Navigategint to Application
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log - Successfull Navigategint to Application
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+[main] INFO Log - The Expected Name of WelcomeAdmin Text is =Admin
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log - Successfull Navigategint to Application
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+[main] INFO Log - Successfully Closed The Browser
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log - Successfull Navigategint to Application
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+[main] INFO Log - The Expected Name of WelcomeAdmin Text is =Admin
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log - Successfull Navigategint to Application
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+[main] INFO Log - The Expected Name of WelcomeAdmin Text is =Admin
+[main] INFO Log - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+[main] INFO Log - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log - Successfull Navigategint to Application
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+[main] INFO Log - The Expected Name of WelcomeAdmin Text is =Admin
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log - Successfull Navigategint to Application
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+[main] INFO Log - The Expected Name of WelcomeAdmin Text is =Admin
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log - Successfull Navigategint to Application
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+[main] INFO Log - The Expected Name of WelcomeAdmin Text is =Admin
+[main] INFO Log - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+[main] INFO Log - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+[main] INFO Log -  Successfully launched Chrome Browser 
+[main] INFO Log - Successfull Navigategint to Application
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+[main] INFO Log - The Expected Name of WelcomeAdmin Text is =Admin
+[main] INFO Log - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+[main] INFO Log - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass
+[main] INFO Log - The Expected Name of WelcomeAdmin Text is =Admin
+[main] INFO Log - The Actual Name of WelcomeAdmin Text is =Welcome Admin
+[main] INFO Log - The Expected WeccomeAdmin text Contain in ActualWelcomeAdmin Text = Pass

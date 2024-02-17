@@ -1,0 +1,12 @@
+<Suite name ="OHRM">
+<test name = "Testing">
+<classes>
+
+<class name ="com.BaseTest.Base_Test"/>
+
+</classes>
+
+
+</test>
+
+</Suite>

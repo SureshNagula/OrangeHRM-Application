@@ -11,7 +11,7 @@ public class Google_SighnIn_Click {
 
 		String applicationUrlAdress="http://google.com";
 		
-		System.setProperty("webdriver.chrome.driver", ".");
+		System.setProperty("webdriver.chrome.driver", "./newbrowser/chromedriver.exe");
 		
 		ChromeDriver driver = new ChromeDriver();
 		driver.get(applicationUrlAdress);
@@ -31,33 +31,6 @@ public class Google_SighnIn_Click {
 		signIn.click();
 		
 		driver.quit();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		

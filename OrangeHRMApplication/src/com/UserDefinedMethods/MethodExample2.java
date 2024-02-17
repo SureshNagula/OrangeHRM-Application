@@ -11,12 +11,13 @@ public class MethodExample2 {
 		
 		System.out.println(var1+var2);
 	}
+	
 	public static void main(String[] args) {
 		
 		MethodExample2 suri = new MethodExample2();
 		
 		suri.addition();
-				suri.subtraction();
+		suri.subtraction();
 		
 	}
 	public void subtraction()

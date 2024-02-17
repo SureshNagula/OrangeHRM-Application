@@ -1846,3 +1846,23 @@
 2023-11-28 12:09:53,595 - Log -INFO - -- Select --
 2023-11-28 12:09:54,744 - Log -INFO - Login
 2023-11-28 12:11:50,934 - Log -INFO - Successfully closed the browser
+2024-01-19 12:28:01,706 - Log -INFO - Successfully launched the browser
+2024-01-19 12:28:40,403 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2024-01-19 12:28:41,530 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2024-01-19 12:28:41,543 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2024-01-19 12:28:46,765 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-01-19 12:30:49,166 - Log -INFO - 127.0.0.1
+2024-01-19 12:30:49,590 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2024-01-19 12:30:55,935 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-01-19 12:30:58,015 - Log -INFO - Successfully closed the browser
+2024-01-19 12:32:27,095 - Log -INFO - Successfully launched the browser
+2024-01-19 12:32:54,586 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2024-01-19 12:32:56,114 - Log -INFO - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+2024-01-19 12:32:56,126 - Log -INFO - The Expected URL Contains Actual URL=Pass
+2024-01-19 12:33:02,068 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-01-19 12:33:03,287 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-01-19 12:33:04,103 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2024-01-19 12:33:05,115 - Log -INFO - OrangeHRM
+2024-01-19 12:33:05,611 - Log -INFO - OrangeHRM Login Page Title is contais Expected Title = Pass
+2024-01-19 12:33:18,253 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2024-01-19 12:33:19,461 - Log -INFO - Successfully closed the browser

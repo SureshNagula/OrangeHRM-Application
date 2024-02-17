@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.XpathTest.SalesForse_Click_Test">
+      <class name="com.AddEmlpoyee.Add_Employee">
         <methods>
-          <include name="sales"/>
           <include name="setup"/>
+          <include name="addEmployee"/>
+          <include name="logouttest"/>
+          <include name="teardown"/>
+          <include name="wecomeadmintest"/>
         </methods>
-      </class> <!-- com.XpathTest.SalesForse_Click_Test -->
+      </class> <!-- com.AddEmlpoyee.Add_Employee -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

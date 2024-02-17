@@ -11,13 +11,15 @@ public class ListArray {
     
 		
         List<Object>arrayList1 = new ArrayList<>();
+        
+       
       
         arrayList1.add(10);
         arrayList1.add("selenium");
         arrayList1.add('A');
         arrayList1.add(10.998);
         
-        
+     //   arrayList1.set(3, "Suresh");
         /*
         System.out.println(arrayList1);
         System.out.println(arrayList1.get(0));

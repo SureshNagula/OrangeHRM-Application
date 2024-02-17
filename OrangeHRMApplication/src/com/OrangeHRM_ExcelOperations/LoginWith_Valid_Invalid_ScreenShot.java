@@ -26,8 +26,6 @@ public class LoginWith_Valid_Invalid_ScreenShot {
 public static void main(String[] args) throws IOException {
 	
 	
-	
-
 	WebDriver driver;
 	
 	String applicationUrlAddress= "http://127.0.0.1/orangehrm-4.2.0.1/";
@@ -38,7 +36,7 @@ public static void main(String[] args) throws IOException {
 	
 	driver.get(applicationUrlAddress);
 	
-	driver.manage().timeouts().implicitlyWait(3, TimeUnit.MINUTES);
+	driver.manage().timeouts().implicitlyWait(4, TimeUnit.MINUTES);
 	
 
 	FileInputStream testDataFile = new FileInputStream("./src/com/Excel_OrangeHRM/OrangeHRMExcel.xlsx");

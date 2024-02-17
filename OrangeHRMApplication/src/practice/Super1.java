@@ -1,0 +1,13 @@
+package practice;
+
+public class Super1 {
+
+	
+	String colour = "White";
+	
+
+	void eating() {
+		System.out.println("Parent Eating");
+	}
+	
+}

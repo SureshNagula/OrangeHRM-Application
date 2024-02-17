@@ -1846,3 +1846,23 @@
 [main] INFO Log - -- Select --
 [main] INFO Log - Login
 [main] INFO Log - Successfully closed the browser
+[main] INFO Log - Successfully launched the browser
+[main] INFO Log - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+[main] INFO Log - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+[main] INFO Log - The Expected URL Contains Actual URL=Pass
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log - 127.0.0.1
+[main] INFO Log - OrangeHRM Login Page Title is contais Expected Title = Pass
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log - Successfully closed the browser
+[main] INFO Log - Successfully launched the browser
+[main] INFO Log - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+[main] INFO Log - http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login
+[main] INFO Log - The Expected URL Contains Actual URL=Pass
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+[main] INFO Log - OrangeHRM
+[main] INFO Log - OrangeHRM Login Page Title is contais Expected Title = Pass
+[main] INFO Log -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+[main] INFO Log - Successfully closed the browser

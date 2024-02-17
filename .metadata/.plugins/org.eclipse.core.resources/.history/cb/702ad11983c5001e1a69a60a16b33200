@@ -1,0 +1,39 @@
+package practice;
+
+public class NewPractice {
+	/*
+	void disply(int x) {
+		x=x+100;
+		System.out.println(x);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		NewPractice obj = new NewPractice();
+		
+		int a=100;
+		System.out.println(a);
+		obj.disply(100);
+		}
+	*/
+	
+	int v=100;
+	void dh(NewPractice a) {
+		a.v = a.v+100;
+		System.out.println(a);
+	}
+	
+	public static void main(String[] args) {
+		
+		NewPractice obj = new NewPractice();
+		
+				System.out.println(obj.v);
+				obj.dh(obj);
+				System.out.println(obj.v);
+	}
+	
+	
+}
+
+

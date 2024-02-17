@@ -24,7 +24,7 @@ public class Drop_Down_Osmania {
 	
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver", "./broserDriveFiles/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./newbrowser/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.MINUTES);
 		driver.get(applicationUrl);
@@ -36,7 +36,7 @@ public class Drop_Down_Osmania {
 		By selectlanguageproperty=By.id("gtranslate_selector");
 		WebElement option=driver.findElement(selectlanguageproperty);
 		
-		//Select languageselection = new Select(seletlanguage);
+		  //Select languageselection = new Select(seletlanguage);
 		
 		//languageselection.selectByIndex(2);
 		

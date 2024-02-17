@@ -13,6 +13,7 @@ public class Google_CapturingHomePageURLAdress {
 		System.setProperty("webdriver.chrome.driver", ".");
 		
 		ChromeDriver chromeBrowser = new ChromeDriver();
+		//chromeBrowser.get(applicationUrlAdress);
 		
 		chromeBrowser.navigate().to(applicationUrlAdress);
 		
@@ -22,27 +23,13 @@ public class Google_CapturingHomePageURLAdress {
  System.out.println(" The URL Adress Provided is ="+applicationUrlAdress);
  
  String actual_GoogleHomePageUrlAdress=chromeBrowser.getCurrentUrl();
+ 
  System.out.println("The Current URL Adress of The Google Home Page is ="+actual_GoogleHomePageUrlAdress);
 		
 		
 		chromeBrowser.close();
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }

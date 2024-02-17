@@ -15,7 +15,7 @@ public class Jquery_Base_Test {
 	@BeforeTest
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver", "./browserfiles/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./newchromedriver/chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		

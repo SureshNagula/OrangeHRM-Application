@@ -12,7 +12,7 @@ public class Goodle_SignIn_GetText {
 		String applicationUrlAddress="http://google.com";
 
 		// Automating the Chrome Browser
-		System.setProperty("webdriver.chrome.driver", ".");
+		System.setProperty("webdriver.chrome.driver", "./newbrowser/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 
 		// Navigating to Google Home Page

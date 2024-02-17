@@ -12,14 +12,18 @@ public class MethodExample10 {
 		System.out.println();
 
 		MthodExample3 m3 = new MthodExample3();
+	    m3.multiplication();
 		System.out.println(" ******* Multiplication Method of MethodExample3 ******* ");
-
-		/*
+         m3.multiplication();
+		
 		MethodExample5 m5 = new MethodExample5();
 		System.out.println(" ******* Division Method of MethodExample5 ******* ");
-		m5.division(); // portected Method
+		m5.dividion(); // portected Method
 		System.out.println();
-		*/
+		
+		MethodExample11 m11 = new MethodExample11();
+		m11.division();
+		
 
 	}
 	
